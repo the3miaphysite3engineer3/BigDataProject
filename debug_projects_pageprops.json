@@ -1,0 +1,4596 @@
+{
+  "_nextI18Next": {
+    "initialI18nStore": {
+      "en": {
+        "new-projects/index/eg.desktop": {
+          "about_us": "About us",
+          "about_us-target": "/en/about-us.html",
+          "blog": "Blog",
+          "blog-target": "/blog/en",
+          "buy": "Buy",
+          "buy-target": "/en/buy/properties-for-sale.html",
+          "rent": "Rent",
+          "rent-target": "/en/rent/properties-for-rent.html",
+          "commercial_rent": "Commercial",
+          "commercial_rent-target": "/en/commercial-rent/properties-for-rent.html",
+          "find_agent-target": "/en/find-broker",
+          "new_projects": "New projects",
+          "terms_conditions-target": "/en/terms-and-conditions.html",
+          "terms_conditions": "Terms & Conditions",
+          "privacy_policy": "Privacy Policy",
+          "privacy_policy-target": "/en/privacy-policy.html",
+          "careers": "Careers",
+          "careers-target": "https://www.propertyfinder.com/careers/",
+          "android-target": "https://play.google.com/store/apps/details?id=ae.propertyfinder.propertyfinder&gl=eg&hl=en",
+          "any": "Any",
+          "filters": "Filters",
+          "new": "new",
+          "log-in": "Log in",
+          "menu.language.en": "English",
+          "menu.language.ar": "عربي",
+          "multi-location-selector/no-suggestions": "We can’t find <b>{{inputValue}}</b>.<br />Please check your spelling or try a different location",
+          "prev": "Prev",
+          "next": "Next",
+          "cta-whatsapp": "WhatsApp",
+          "cta-email": "Email",
+          "new_projects-target": "/en/new-projects",
+          "clear-all": "Clear All",
+          "filters-modal/property-type-title": "Property type",
+          "currency-code/AED": "AED",
+          "currency-code/EGP": "EGP",
+          "currency-code/BHD": "BHD",
+          "currency-code/QAR": "QAR",
+          "currency-code/SAR": "SAR",
+          "from": "from",
+          "to": "To",
+          "filters-modal/property-area-size-title": "Property Size ({{area_unit}})",
+          "area-unit/sqft": "sqft",
+          "area-unit/sqm": "sqm",
+          "filters-modal/amenities-title": "Amenities",
+          "filters-modal/completion-status-title": "Completion status",
+          "name": "Name",
+          "email": "Email",
+          "validation/empty-email": "Please enter your email",
+          "validation/not-valid-email": "Please enter a valid email",
+          "auth/empty-password": "Please enter a password",
+          "auth/or": "or",
+          "auth/something-wrong": "Something went wrong",
+          "password": "Password",
+          "auth/forgot-password": "Forgot password?",
+          "auth/create-account": "Create account",
+          "auth/try-later": "Please try again later",
+          "auth/our-privacy-policy": "our privacy policy",
+          "filters/no-properties-found": "No properties found",
+          "property-finder": "Property Finder",
+          "validation/empty-name": "Please enter your name",
+          "validation/empty-phone-number": "Please enter your phone number",
+          "show-more": "Show more",
+          "show-less": "Show less",
+          "sort-by": "Sort by",
+          "tags/new-listing": "New",
+          "cookies_policy": "Cookies Policy",
+          "cookies_policy-target": "/en/cookies-policy.html",
+          "menu/intro": "Log in to sync your saved properties across devices, save your searches and get notified when a new property gets listed.",
+          "menu/cta": "Log in / Register",
+          "menu/country": "Country",
+          "menu/language": "Language",
+          "country-select/ae": "UAE",
+          "country-select/bh": "Bahrain",
+          "country-select/eg": "Egypt",
+          "country-select/qa": "Qatar",
+          "country-select/sa": "Saudi",
+          "country-select/tr": "Turkey",
+          "menu/user-links/saved-properties": "Saved properties",
+          "menu/user-links/contacted-properties": "Contacted properties",
+          "menu/user-links/saved-searches": "Saved searches",
+          "menu/logout": "Logout",
+          "filters/price": "Price",
+          "auth/accept-terms-and-conditions-shorter": "By registering you accept our {link} and {link}.",
+          "auth/welcome": "Welcome to Property Finder",
+          "auth/registration-form-title": "Create an account to explore special features only for members",
+          "auth/login-form-title": "Log in to continue exploring the best properties around you",
+          "auth/forgot-password-form-title": "We will send you an email to reset your password",
+          "auth/forgot-password-form-title-success": "Email has been sent. Please check your email to reset the password.",
+          "auth/forgot-password-resend": "Resend the email",
+          "saved-property/email-verification-title": "Login to sync saved properties across all devices",
+          "saved-property/email-verification-heading": "Save Properties in Your Account",
+          "filters/price-period/year": "/year",
+          "filters/price-period/month": "/month",
+          "filters/price-period/week": "/week",
+          "filters/price-period/day": "/day",
+          "auth/email-verification-title": "View saved properties\nKeep search history across devices\nSee which properties you have contacted",
+          "download-ios-app": "Download Property Finder IOS App - Real Estate & Home App",
+          "download-android-app": "Download Property Finder Android App - Real Estate & Home App",
+          "logo-title": "Property Finder's Logo",
+          "report/email-verification-title": "Sorry to hear there is an issue about this listing. Please login to report.",
+          "report/email-verification-heading": "Login to Report Property",
+          "auth/menu/intro": "Sign in or register to sync your favorite properties across devices",
+          "auth/menu/sign-in": "Sign in",
+          "auth/menu/create-account": "Create new account",
+          "auth/my-account": "My account",
+          "common/back": "Back",
+          "filters-form/find": "Find",
+          "Beds": "Beds",
+          "Filters_MinPricePlaceholder": "Min. Price ({{currency}})",
+          "Filters_MaxPricePlaceholder": "Max. Price ({{currency}})",
+          "Filters_PriceLabelFrom": "From {{price}} {{currency}} / {{period}}",
+          "Filters_PriceLabelTo": "Up to {{price}} {{currency}} / {{period}}",
+          "Filters_PriceLabelRange": "{{from}} - {{to}} {{currency}} / {{period}}",
+          "Common_Reset": "Reset",
+          "Filters_MinAreaPlaceholder": "Min. Area",
+          "Filters_MaxAreaPlaceholder": "Max. Area",
+          "EmailAlert_AuthTitle": "Keep Track of Updates",
+          "EmailAlert_AuthDescription": "Login to receive the latest properties matching your search.",
+          "HeaderNav_Explore": "Explore",
+          "FooterNav_AgentHubTarget": "/hub",
+          "HeaderNav_Mortgages": "Mortgages",
+          "Primary_DeliveryDate": "Delivery Date",
+          "Primary_SaleStarts": "Sales Starts",
+          "Primary_Developer": "Developer",
+          "Primary_EmptyStateMessage": "No projects matching your search.",
+          "Primary_EmptyStateRecommend": "You could try to remove some filters.",
+          "Studio": "Studio",
+          "Seo_PageNumber": "Page {{page}}",
+          "Auth_PhoneInvalid": "Please enter a valid phone number",
+          "Auth_NotPassedOtpRequestDuration": "Please wait for at least 30 seconds to send request for another code.",
+          "Auth_ReachedMaxAttemptLimit": "The code entered is not valid, please try again",
+          "Auth_OtpFormFooterNote": "Didn’t receive the code?",
+          "Auth_OtpTryAgainSuccess": "Code sent",
+          "Auth_WrongOtp": "The code entered is not valid, please try again",
+          "Auth_ExpiredOtp": "The code entered is not valid, please try again",
+          "Auth_ConsumedOtp": "The code entered is not valid, please try again",
+          "Primary_ClearAllFilters": "Clear all filters",
+          "Continue": "Continue",
+          "ShowResultN_one": "Show 1 result",
+          "ShowResultN_other": "Show {{count}} results",
+          "BedN_one": "1 Bed",
+          "BedN_other": "{{count}} Beds",
+          "Filters_MoreN_zero": "More Filters",
+          "Filters_MoreN_one": "More Filters (1)",
+          "Filters_MoreN_other": "More Filters ({{count}})",
+          "Primary_LocationChipN_one": "{{location}} (1 project)",
+          "Primary_LocationChipN_other": "{{location}} ({{count}} projects)",
+          "TryAgain": "Try again",
+          "Languages": "Languages",
+          "LearnMore": "Learn more",
+          "Auth_OtpTryAgainLabelN_one": "Try again in 1",
+          "Auth_OtpTryAgainLabelN_other": "Try again in {{count}}",
+          "More": "{{length}} more",
+          "FooterNav_PfExpert": "PF Expert",
+          "FooterNav_PfExpertTarget": "//expert.propertyfinder.{{code}}/auth/sign-in",
+          "BottomNavigation_Home": "Home",
+          "BottomNavigation_Search": "Search",
+          "BottomNavigation_Explore": "Explore",
+          "BottomNavigation_Saved": "Saved",
+          "BottomNavigation_User": "Account",
+          "BottomNavigation_OnBoardingTitle": "DataGuru - New!",
+          "BottomNavigation_OnBoardingDescription": "Explore prices, community & residential insights and more.",
+          "Auth_VerifyAccountModalTitle": "Verify Your Account",
+          "Auth_VerifyAccountModalParagraph": "Enter the verification code we sent over to <br/>{{email}}",
+          "Auth_VerifyAccountModalLink": "Open in your mailbox",
+          "Auth_VerifyAccountModalSpan": "Make sure to check your spam folder.",
+          "Common_Submit": "Submit",
+          "Auth_SignInGoogle": "Continue with Google",
+          "Auth_SignInFacebook": "Continue with Facebook",
+          "SeoLinks_AffordableSearches": "Affordable Searches",
+          "SeoLinks_ExploreAmenities": "Explore Amenities",
+          "SeoLinks_ExploreMore": "Explore More",
+          "Bedrooms": "Bedrooms",
+          "NewProjects_EmailLeadModalTitle": "Email representative",
+          "PrimaryLanding_SeoTitle": "New & Off-Plan {{property_type}} Projects in {{location}} | Property Finder",
+          "PrimaryLanding_SeoDescriptionWithBedroom": "Become a homeowner now. Explore new {{property_type}} projects in {{location}} in various sizes. Choose from {{property_count}} off-plan {{property_type}} on Property Finder.",
+          "PrimaryLanding_NewProjectsWithBedroom": "Off-Plan {{bedroom_count}} Bedroom {{property_type}} Projects in {{location}}",
+          "HomePage_FooterLinksSecondaryTitle": "Real estate professionals",
+          "TextfieldPhoneNumber_NoSearchResultText": "No results matching <b>{{searchQuery}}</b> is found.",
+          "TextfieldPhoneNumber_SearchFieldPlaceholder": "Search country or code",
+          "TextfieldPhoneNumber_Placeholder": "Phone number",
+          "NewProjects_EmailLeadSuccessText": "Your enquiry has been sent successfully. The developer will reach back to you soon.",
+          "NewProjects_EmailLeadErrorText": "Your enquiry couldn't sent to the developer. Please review your information and try again.",
+          "PrimaryLanding_SeoTitleWithBedroom": "Off-Plan {{bedroom_count}} {{property_type}} Projects in {{location}} | Property Finder",
+          "PrimaryLanding_SeoDescription": "Become a homeowner now. Explore new {{property_type}} projects in {{location}} in various sizes. Choose from {{property_count}} off-plan {{property_type}} on Property Finder.",
+          "PrimaryLanding_NewProjects": "New & Off-Plan {{property_type}} Projects in {{location}}",
+          "validation/not-valid-phone-number": "Please enter a valid phone number",
+          "UserMenu_PersonalInformationLink": "Personal Information",
+          "SeoLinks_NearbyProjects": "Nearby Projects",
+          "SeoLinks_AvailableBedrooms": "Available Bedrooms",
+          "SeoLinks_ExploreOtherPropertyTypes": "Explore Other Property Types",
+          "PrimaryLanding_SeoTitleStudio": "Off-Plan Studio {{property_type}} in {{location}}'s New Projects | Property Finder",
+          "PrimaryLanding_SeoDescriptionStudio": "Become a homeowner now with off-plan studio {{property_type}} in {{location}}'s new projects. Choose from {{property_count}} studio {{property_type}} on Property Finder.",
+          "PrimaryLanding_NewProjectsStudio": "Off-Plan Studio {{property_type}} in {{location}}'s New Projects",
+          "Primary_PageHeading": "New Off-Plan Projects in {{text}}",
+          "NumberOfBedroom_one": "{{value}} bedroom",
+          "NumberOfBedroom_other": "{{value}} bedrooms",
+          "sitemap": "Sitemap",
+          "FollowUsOn": "Follow us on {{social}}",
+          "PropertyType_Apartments": "Apartments",
+          "PropertyType_BulkRentUnits": "Bulk Rent Units",
+          "PropertyType_BulkSaleUnits": "Bulk Sale Units",
+          "PropertyType_Bungalows": "Bungalows",
+          "PropertyType_BusinessCentres": "Business Centres",
+          "PropertyType_CoWorkingSpaces": "Co-Working Spaces",
+          "PropertyType_Compounds": "Compounds",
+          "PropertyType_Duplexes": "Duplexes",
+          "PropertyType_Factories": "Factories",
+          "PropertyType_Farms": "Farms",
+          "PropertyType_FullFloors": "Full Floors",
+          "PropertyType_HalfFloors": "Half Floors",
+          "PropertyType_HotelsHotelApartments": "Hotel Apartments",
+          "PropertyType_LaborCamps": "Labor Camps",
+          "PropertyType_Land": "Land",
+          "PropertyType_OfficeSpace": "Office Space",
+          "PropertyType_Penthouses": "Penthouses",
+          "PropertyType_Restaurants": "Restaurants",
+          "PropertyType_Shops": "Shops",
+          "PropertyType_Townhouses": "Townhouses",
+          "PropertyType_Villas": "Villas",
+          "PropertyType_Warehouses": "Warehouses",
+          "PropertyType_WholeBuildings": "Whole Buildings",
+          "PropertyType_Ivillas": "iVillas",
+          "PropertyType_Roofs": "Roofs",
+          "PropertyType_ShortTermHotelApartments": "Short Term & Hotel Apartments",
+          "PropertyType_Chalets": "Chalets",
+          "PropertyType_HotelApartments": "Hotel Apartment",
+          "PropertyType_Clinics": "Clinics",
+          "PropertyType_Palaces": "Palaces",
+          "PropertyType_Cafeterias": "Cafeterias",
+          "PropertyType_Cabins": "Cabins",
+          "PropertyType_TwinHouses": "Twin Houses",
+          "PropertyType_MedicalFacilities": "Medical Facilites",
+          "PropertyType_RestHouses": "Rest Houses",
+          "PropertyType_Blocks": "Blocks",
+          "PropertyType_StaffAccommodations": "Staff Accommodations",
+          "PropertyType_BulkUnits": "Bulk Units",
+          "sale": "sale",
+          "NewProjects_LinkTitle": "{{name}} from {{price}}",
+          "footer-sitemap-target": "/en/h-sitemap/{{category}}/{{city}}",
+          "SeoLinks_AvailableProjects": "Available Projects",
+          "SeoLinks_AvailablePropertyTypes": "Available Property Types",
+          "SeoLinks_OtherDevelopers": "Other Developers",
+          "Quarter_1": "Q1",
+          "Quarter_2": "Q2",
+          "Quarter_3": "Q3",
+          "Quarter_4": "Q4",
+          "HeaderNav_NewProjects": "New projects",
+          "NewProjects_NoDeveloperStockTitle": "Currently, there are no available developer stocks in this location. Check {{location}} for available stock.",
+          "NewProjects_NoDeveloperStockBtn": "New launches in {{location}}",
+          "HeaderNav_InsightsHub": "Insights Hub",
+          "HeaderNav_InsightsHubTarget": "/en/insightshub",
+          "NewProjects_NOfDeveloperStock_one": "1 project with developer stock",
+          "NewProjects_NOfDeveloperStock_other": "{{count}} projects with developer stock",
+          "NewProjects_NOfResaleStock_one": "1 project with resale stock",
+          "NewProjects_NOfResaleStock_other": "{{count}} projects with resale stock",
+          "NewlyLaunched": "Newly launched",
+          "NewProjects_DeveloperStockTooltip": "Start investing by buying from a developer with payment plan.",
+          "HeaderNav_FindAgent": "Find agent",
+          "SideNav_UserSubtitle": "View your account",
+          "NewProjects_EmailLeadModalDescription": "Fill out your contact details and a representative will contact you about <b>{{title}}</b>",
+          "FooterNav_PartnerHubTarget": "/partnerhub/",
+          "FooterNav_PartnerHub": "Partner Hub",
+          "Lead_VerificationErrorTitle": "Verification error. Please try again.",
+          "PrimaryDevLanding_PageHeading": "New & Off-Plan Projects by {{developerName}}",
+          "PrimaryDevLanding_SeoTitle": "{{developerName}}'s Off-Plan New Projects | Property Finder",
+          "PrimaryDevLanding_SeoDescription": "Explore {{developerName}}'s new projects and off-plan properties. Discover primary properties, price trends, and use our mortgage calculator to decide wisely.",
+          "PrimaryDevLanding_PageHeadingWithPropertyType": "Off-Plan & Ready {{propertyType}} Projects by {{developerName}}",
+          "PrimaryDevLanding_SeoTitleWithPropertyType": "Off-Plan & Ready {{propertyType}} Projects by {{developerName}} - Property Finder",
+          "PrimaryDevLanding_SeoDescriptionWithPropertyType": "Buy off-plan {{propertyType}} in {{developerName}}'s new projects to make a smart investment. Discover new {{propertyType}} with photos, price trends, and a mortgage calculator.",
+          "PrimaryDevLanding_PageHeadingWithLocation": "New & Off-Plan Projects by {{developerName}} in {{location}}",
+          "PrimaryDevLanding_SeoTitleWithLocation": "{{developerName}}'s Off-Plan New Projects in {{location}} | Property Finder",
+          "PrimaryDevLanding_SeoDescriptionWithLocation": "Invest in {{developerName}}'s upcoming projects in {{location}}. Discover primary properties and price trends, and use our mortgage calculator to make a wise decision.",
+          "PrimaryDevLanding_PageHeadingWithPropertyTypeAndLocation": "Off-Plan {{propertyType}} in {{developerName}}'s New Projects in {{location}}",
+          "PrimaryDevLanding_SeoTitleWithPropertyTypeAndLocation": "Off-Plan {{propertyType}} in {{developerName}}'s New Projects in {{location}} | Property Finder",
+          "PrimaryDevLanding_SeoDescriptionWithPropertyTypeAndLocation": "Browse off-plan {{propertyType}} in {{developerName}}'s new projects in {{location}}. Make an informed decision with photos, price trends, and a mortgage calculator.",
+          "PrimaryDevLanding_PageHeadingWithPropertyTypeAndBedroom": "Off-Plan & Ready  {{bedroomCount}}  bedroom {{propertyType}} Projects by {{developerName}}",
+          "PrimaryDevLanding_SeoTitleWithPropertyTypeAndBedroom": "Off-Plan & Ready  {{bedroomCount}} projects  bedroom {{propertyType}} by {{developerName}} - Property Finder",
+          "PrimaryDevLanding_SeoDescriptionWithPropertyTypeAndBedroom": "Explore new {{bedroomCount}} bedroom {{propertyType}} in {{developerName}}'s latest projects. Make an informed decision with photos, price trends, and a mortgage calculator.",
+          "PrimaryDevLanding_PageHeadingWithPropertyTypeAndStudio": "Off-Plan & Ready Studio {{propertyType}} Projects by {{developerName}}",
+          "PrimaryDevLanding_SeoTitleWithPropertyTypeAndStudio": "Off-Plan & Ready Studio  {{propertyType}}  Projects by {{developerName}} - Property Finder",
+          "PrimaryDevLanding_SeoDescriptionWithPropertyTypeAndStudio": "Explore new studio {{propertyType}} in {{developerName}}'s latest projects. Make an informed decision with photos, price trends, and a mortgage calculator.",
+          "PrimaryDevLanding_SeoTitleWithPropertyTypeLocationAndBedroom": "{{bedroomCount}} bedroom {{propertyType}} by {{developerName}}'s New Projects in {{location}} | Property Finder",
+          "PrimaryDevLanding_PageHeadingWithPropertyTypeLocationAndBedroom": "{{bedroomCount}} {{propertyType}} in {{developerName}}'s New Projects in {{location}}",
+          "PrimaryDevLanding_SeoDescriptionWithPropertyTypeLocationAndBedroom": "Explore {{bedroomCount}} bedroom {{propertyType}} in {{developerName}}'s latest projects in {{location}}. Make an informed decision with photos, price trends, and a mortgage calculator.",
+          "PrimaryDevLanding_SeoTitleWithPropertyTypeLocationAndStudio": "Studio {{propertyType}} in {{developerName}}'s New Projects in {{location}} | Property Finder",
+          "PrimaryDevLanding_SeoDescriptionWithPropertyTypeLocationAndStudio": "Explore studio {{propertyType}} in {{developerName}}'s latest projects in {{location}}. Make an informed decision with photos, price trends, and a mortgage calculator.",
+          "PrimaryDevLanding_PageHeadingWithPropertyTypeLocationAndStudio": "Studio {{propertyType}} in {{developerName}}'s New Projects in {{location}}",
+          "BottomNavigation_Communities": "Communities",
+          "CreateAlert_PreAuthModalTitle": "Log in to create alert",
+          "CreateAlert_PreAuthModalDescription": "We'll let you know if any new properties come up that match what you're searching for.",
+          "CreateAlert_PreAuthModalButton": "Log in / Register",
+          "CreateAlert_AuthModalTitle": "Create alerts in your account",
+          "CreateAlert_AuthModalDescription": "Get alerts about new properties in your search",
+          "BottomNavigation_HomeTarget": "/en/",
+          "BottomNavigation_SearchTarget": "/en/search",
+          "BottomNavigation_CommunitiesTarget": "/en/area-insights/cairo",
+          "BottomNavigation_ExploreTarget": "/en/area-insights/explore/dubai",
+          "BottomNavigation_SavedTarget": "/en/user/saved-properties",
+          "BottomNavigation_UserTarget": "/en/user",
+          "SeoLinks_PopularDevSerpPages": "Find Projects by known developers",
+          "SeoLinks_CityLevelDevSerpPages": "Find Projects on other cities",
+          "SeoLinks_CommunityLevelDevSerpPages": "Find Projects on other communities",
+          "NewProjects_ByDeveloper": "by {{developer}}",
+          "WhatsappUnblock_LoginTitle": "Register / Sign in to submit your request",
+          "WhatsappUnblock_LoginProposition": "Contact Property Finder support",
+          "NewProjects_FiltersSearchPlaceholder": "Location, project or developer",
+          "NewProjects_FiltersSearchHistory": "Recently visited",
+          "filters-modal/post-handover-payment-plan": "Projects with post-handover payments",
+          "filters-modal/delivery-date-title": "Delivery date",
+          "NewProjectsCard_Price": "Launch price",
+          "NewProjectsCard_PaymentPlanSingle": "Payment Plan",
+          "NewProjectsCard_PaymentPlanMultiple_one": "1 Payment Plan",
+          "NewProjectsCard_PaymentPlanMultiple_other": "{{count}} Payment Plans",
+          "NewProjectsCard_StartingPrice": "From",
+          "NewProjectsCard_LastContacted": "Last contacted",
+          "by": "by",
+          "NewProjectsCard_ConstructionProgress": "Construction progress",
+          "tags/ready": "Ready",
+          "tags/off-plan": "Off-plan",
+          "NewProjects_NOfDeveloperStockWithLink_one": "1 project with <1>developer</1> stock",
+          "NewProjects_NOfDeveloperStockWithLink_other": "{{count}} projects with <1>developer</1> stock",
+          "HeaderNav_ExplorePrimaryDevelopers": "Find Developers",
+          "HeaderNav_ExplorePrimaryDevelopersTarget": "/en/new-projects/dev-list/uae",
+          "NewProjects_CarouselTitle_DevEntryPoint": "Or, you can look for a project by a specific developer:",
+          "Primary_DevList_NumOfProjects": "{{number}} projects",
+          "SEO_TitleAltText_AccountBenefits": "Account Benefits",
+          "SEO_TitleAltText_Benefits": "Benefits of signing up",
+          "SEO_TitleAltText_DeveloperLogo": "{{developerName}} developer Logo",
+          "SEO_TitleAltText_CardImage": "{{title}} card Image",
+          "SEO_TitleAltText_Report": "Report",
+          "SEO_TitleAltText_EmailIcon": "Email Icon",
+          "SEO_TitleAltText_SavedProperties": "Saved Properties",
+          "SEO_TitleAltText_SearchAlert": "Search Alerts",
+          "SEO_TitleAltText_ReportViaWhatsApp": "Report property by WhatsApp",
+          "AppBanner_IosSubTitle": "Free - 2.5M Downloads",
+          "AppBanner_AndroidSubTitle": "Free - 2.5M Downloads",
+          "AppBanner_OpenCta": "Get App",
+          "ConsentModal_Title": "Marketing Communications",
+          "ConsentModal_SubTitle": "Stay in the know",
+          "ConsentModal_PrimaryButton": "Yes please",
+          "ConsentModal_SecondaryButton": "No thanks",
+          "ConsentModal_DescriptionPart1": "Receive updates on property listings, market trends, our products and services, expert tips and tools to assist you in finding your ideal home. You can unsubscribe at any time.",
+          "ConsentModal_DescriptionPart2": "<br/>\nWe may send messages via email, in-app notifications, WhatsApp and other channels. \n<br/>\n<br/>\nThese communications pertain to Property Finder's services and those of our affiliates, including Mortgage Finder. All messages are sent in accordance with our <a href=\"/en/privacy-policy.html\">Privacy Policy</a>.",
+          "ConsentModal_Description": "Receive updates on property listings, market trends, our products and services, expert tips and tools to assist you in finding your ideal home. You can unsubscribe at any time.\nWe may send messages via email, in-app notifications, WhatsApp and other channels. \nThese communications pertain to Property Finder's services and those of our affiliates, including Mortgage Finder. All messages are sent in accordance with our Privacy Policy.",
+          "view-more": "View more",
+          "view-less": "View less",
+          "Map_ExitStreetView": "Exit Street View",
+          "tags/sold-out": "Sold out",
+          "NewProjectsCard_MultiplePropertyType": "Multiple",
+          "SEO_TitleAltText_CompanyLogo": "{{companyName}} Logo",
+          "NewProjects_Compare": "Compare",
+          "NewProjects_Compare_Text1": "Select 2-3 projects to compare",
+          "NewProjects_Compare_Text2": "Select 2-4 projects to compare",
+          "NewProjects_Compare_Text3": "Select 2-5 projects to compare",
+          "filters-modal/dld-id-title": "DLD status",
+          "filters-modal/dld-id": "DLD registered projects",
+          "currency-code": "EGP",
+          "NewProjects_ImageAltText": "image of {{project}} by {{developer}}, {{location}} — [{{index}}]",
+          "AuthModal_AuthDescription": "Unlock exclusive tools & insights\nSave and track your properties\nBe notified of any price change",
+          "AuthModal_AuthSubTitle": "Keep track of updates",
+          "AuthModal_AuthTitle": "Sign in or Register",
+          "AuthModal_AuthPrimaryButton": "Go!",
+          "HeaderNav_BBkTarget": "https://www.bbkonline.com/",
+          "NewProjects_Collections_Title": "Explore by",
+          "validation/not-valid-whatsapp-number": "Please enter a valid WhatsApp number",
+          "validation/empty-whatsapp-number": "Please enter your WhatsApp number",
+          "TextfieldWhatsAppNumber_Placeholder": "WhatsApp number",
+          "ProjectN_one": "1 project",
+          "ProjectN_other": "{{count}} projects",
+          "Auth_OtpWhatsAppLoginBody": "We’ve sent you a WhatsApp message with the code to your number ending in {{number}}",
+          "Auth_OtpWhatsAppLoginRegisteredSuccessfullyTitle": "Account successfully created",
+          "AuthModal_VerifyProfileTitle": "Complete & verify your profile",
+          "Auth_OtpWhatsAppLoginRegisteredSuccessfullyBody": "You’re all set! Start exploring properties, and we’ll keep you updated on the ones that matter most.",
+          "Domain": "www.propertyfinder.eg",
+          "FooterNav_AgentHub": "Agent Hub",
+          "HeaderNav_Communities": "Communities",
+          "HeaderNav_CommunitiesTarget": "/en/area-insights/cairo",
+          "NewProjects_CarouselCTA_DevEntryPoint": "All developers in Egypt",
+          "PrimaryList_SeoDescriptionN_zero": "",
+          "PrimaryList_SeoDescriptionN_one": "Become a homeowner now. Buy off plan in {{location}} Choose from our one New Project and more on Property Finder Egypt",
+          "PrimaryList_SeoDescriptionN_other": "Become a homeowner now. Explore new projects in {{location}} from top developers. Choose from {{count}} off-plan projects on Property Finder.",
+          "PrimaryList_SeoTitleN_zero": "{{count}} New Projects & Off Plan Properties For Sale in {{location}} Property Finder Egypt",
+          "PrimaryList_SeoTitleN_one": "One New Project & Off Plan Properties For Sale in {{location}} Property Finder Egypt",
+          "PrimaryList_SeoTitleN_other": "New & Off-Plan Projects in {{location}} | Property Finder",
+          "SeoLinks_DeveloperSerpPages": "Projects by Known Developers in Egypt",
+          "country-name": "Egypt",
+          "huawei-target": "https://appgallery.huawei.com/app/C105081471",
+          "ios-target": "https://apps.apple.com/eg/app/apple-store/id897540233"
+        }
+      }
+    },
+    "initialLocale": "en",
+    "ns": [
+      "new-projects/index/eg.desktop"
+    ],
+    "userConfig": {
+      "i18n": {
+        "locales": [
+          "default",
+          "en",
+          "ar"
+        ],
+        "defaultLocale": "default",
+        "localeDetection": false
+      },
+      "localePath": "/src/public/primary/static/resources/translations",
+      "compatibilityJSON": "v4",
+      "default": {
+        "i18n": {
+          "locales": [
+            "default",
+            "en",
+            "ar"
+          ],
+          "defaultLocale": "default",
+          "localeDetection": false
+        },
+        "localePath": "/src/public/primary/static/resources/translations",
+        "compatibilityJSON": "v4"
+      }
+    }
+  },
+  "countryConfigs": {
+    "areaUnit": "sqm",
+    "language": {
+      "current": "ar",
+      "alternative": "en"
+    },
+    "countryCode": "eg",
+    "currencyCode": "EGP",
+    "defaultCategory": "5"
+  },
+  "devicePlatform": {
+    "isDesktop": true,
+    "isMobile": false,
+    "isAndroid": false,
+    "isIos": false,
+    "isChrome": true,
+    "isSafari": false,
+    "isGoogleBot": false
+  },
+  "blockSnowplowTracking": false,
+  "env": {
+    "awsCaptchaApiKey": "MTdDMFPiGMRJMh7H8hf6oIzhJSS4VDej/a64GNbXQ/U4bCOl3/7nrc9CGfMFm4deSXesdMQhb451p89ZxFb9KQAQmPfuU1OENixyhQ0AruqKr3C6dHmhuaxV6yAVRf6wy9cXfkXYzhFc0nEa7K1B4g3WH5JLCPGZzGFqHfA/td2uBapfTwfQEOBVtajkaWs5eM/KPZ/KG6VGj7OHW52TaCkpWVGwJCt16g3+XwV5ggtDmEFyvWPb58eWyHpWNAs2mC/YMjNhfrNZuhe7j4uxdmx/sIuXEErwwsNHFpFiNW+aJMJdsNtJKdvvz69C1WAolEwzyXDhGAt9316UTRC7pEcm2Zf4ThT9XG2RIFCphTP7M0CxcGQNXLtjWlsvkK8P5FuOGj+V3nve0S4fsJDO9wx1jOuER5lGTxW9d5pfIA3JDYDS2oO/UosR2rPqe3vw+qbS8ueNMxfyRoYWctZkZaZybv+MMiV+8XJpAk/ykUYg0O+iE03lUiu/vPSd+v2U3un7T7Gd+5CreLE1IxdvLIYYxTh8zje/Yxdi+A/DLCHd4aNFsg+gI33SgY/Bhlfw0DlBjjT984argKXYIS+jYqzFaUToYS+TljZW1UGVCzgcCo+07tXn+S1wE0Y76+uU3E+fOryupNEAz9vZwEXeb6MmcbRDmfyssZcBaCOJ1IA=_1_1",
+    "googleMapsApiKey": "AIzaSyAGjq8O4h1XDTCgyoUJT9hpeHNpm1pYJVQ",
+    "recaptchaKey": "6LfnX0wpAAAAABNKCcUe5IlCeYoldhCsjcPso5U3",
+    "snowplowHost": "c.propertyfinderdata.com",
+    "tealiumUtagEnv": "prod"
+  },
+  "environment": "production",
+  "featureFlags": [
+    "awsWafScript",
+    "tealium",
+    "seoContent",
+    "view360Logo",
+    "developerProject",
+    "locationInsights",
+    "locationReviews",
+    "rumVision",
+    "sitemap"
+  ],
+  "flagshipId": "664ou1pdeevhtkosqyqmnv",
+  "remoteFlags": {
+    "AGENT_REDESIGN_PAGE": "variantB",
+    "CMS_CACHE_STRATEGY_TEST": "on",
+    "FARO_BROWSER_LOGS": "original",
+    "NAV_HEADER_VARIANT_TEST": "variantA",
+    "PRICE_CHANGE": "original",
+    "SEARCH_CREATE_ALERT_FLOW": "variantA",
+    "SEARCH_VIEWED_PROPS": "variantA",
+    "serpDownPaymentEgp": "variantA",
+    "SERP_ENHANCED_FOOTER_TEST": "off",
+    "SERP_PROPERTY_AGGS_ENDPOINT_TEST": "off",
+    "SERP_RANKING_FACTORS": "on",
+    "test136": "variantA",
+    "TEST_AA": "original",
+    "TEST_ACCOUNT_NO_COUNTRY_POD": "variantA",
+    "TEST_ACCOUNT_WHATSAPP_CAPTCHA": "variantA",
+    "TEST_AGENT_INFO_STICKY": "original",
+    "TEST_AGENT_LEAD_WHATSAPP_CAPTCHA": "variantA",
+    "TEST_AGENT_WHATSAPP_CAPTCHA": "variantA",
+    "TEST_AI_SEARCH": "original",
+    "TEST_BANNER_HOMEPAGE": "original",
+    "TEST_BANNER_PLP": "original",
+    "TEST_BANNER_SAVED_PROPERTIES": "original",
+    "TEST_BANNER_SEARCH": "original",
+    "TEST_BLOCK_SNOWPLOW_TRACKING": "off",
+    "TEST_DATAGURU_SCOUT_FAB": "off",
+    "TEST_DELETE_BY_LISTING_ID": "variantA",
+    "TEST_EMAIL_LEAD_LISTING_ID": "on",
+    "TEST_EMAIL_LEADV2_CARD": "variantA",
+    "TEST_HIDE_FB_LOGIN": "original",
+    "TEST_HOMEPAGE_BANNER": "original",
+    "TEST_HOMEPAGE_REVAMP": "original",
+    "TEST_IAM_CREATE_ALERT_SERP": "variantA",
+    "TEST_IAM_REGISTER_HOME_PAGE": "original",
+    "TEST_IAM_REGISTER_SERP": "original",
+    "TEST_LEAD_LISTING_ID": "on",
+    "TEST_LEAD_NO_COUNTRY_POD": "original",
+    "TEST_LIMIT_SAVE_SEARCH": "variantA",
+    "TEST_LISTING_ID": "on",
+    "TEST_MAP_MIGRATION": "variantA",
+    "TEST_MARKET_URGENCY": "original",
+    "TEST_MF_FHM_LEAD_BANNER": "on",
+    "TEST_MF_HP_BANNER": "variantC",
+    "TEST_MF_HP_LEAD_BANNER_EMAIL": "on",
+    "TEST_MF_PLP_LEAD_FORM_STICKY": "variantB",
+    "TEST_MFR_CAMPAIGN_BANNER": "on",
+    "TEST_NEW_EMAIL_LEAD": "variantA",
+    "TEST_NEW_PROJECT_CARDS": "original",
+    "TEST_NP_IN_NAVIGATION": "original",
+    "TEST_PERFORMANCE": "prefetchPLP",
+    "TEST_PLP_AGENT_REVIEW": "original",
+    "TEST_PLP_FLOOR_PLANS_ENABLED_LATEST": "original",
+    "TEST_PLP_MORE_PROPERTIES": "variantA",
+    "TEST_PLP_RENT_VS_BUY": "original",
+    "TEST_PLP_REVAMP": "original",
+    "TEST_PLP_REVIEWS": "on",
+    "TEST_PLP_S3": "original",
+    "TEST_PLP_WHATSAPP_CAPTCHA": "variantA",
+    "TEST_PRIMARY_AGENT": "on",
+    "TEST_PRIMARY_COLLECTIONS": "off",
+    "TEST_PRIMARY_DEV_LIST_DEVELOPER_PROJECTS": "off",
+    "TEST_PRIMARY_LIQUIDITY": "original",
+    "TEST_PRIMARY_PAYMENT_PLAN_MODAL": "off",
+    "TEST_PRIMARY_PDP_ROUTE": "off",
+    "TEST_PRIMARY_REVIEWS": "on",
+    "TEST_PRIMARY_SCOUT_FAB": "off",
+    "TEST_PRIMARY_SPONSOR_ADS": "off",
+    "TEST_PRIMARY_UNIT_TYPE": "off",
+    "TEST_QF_BACKWARD": "original",
+    "TEST_quickfitler": "original",
+    "TEST_REFINANCE_CALC_POSITION": "2",
+    "TEST_REFINANCE_CAMPAIGN": "on",
+    "TEST_SAVED_PROPERTY_IAM": "variantA",
+    "TEST_SEARCH_HEADERS_COUNTRY_CODE": "variantA",
+    "TEST_SEARCH_KILL_BILL_ROLLOUT": "v_ae_ce_le_pe",
+    "TEST_SEARCH_RANKING": "original",
+    "TEST_SEARCH_SPA": "variantA",
+    "TEST_SERP_CARAT": "original",
+    "TEST_SERP_REVAMP": "original",
+    "TEST_SERP_REVIEWS": "on",
+    "TEST_SERP_SUPERAGENT": "original",
+    "TEST_SERP_WHATSAPP_CAPTCHA": "variantA",
+    "TEST_TRAVEL_TIME": "original",
+    "TEST_URGENCY_TRIGGER": "original",
+    "TEST_USER_PAGES": "variantA",
+    "TEST_VALKYRIE_CAROUSAL": "original",
+    "TEST_WHATSAPP_CAPTCHA": "off",
+    "TEST_WHATSAPP_LOGIN": "original",
+    "TOGGLE_BOTTOM_NAVIGATION_ENABLED": "off",
+    "TOGGLE_HEADER_COMMUNITIES_ENTRYPOINT": "on",
+    "TOGGLE_HEADER_INSIGHTSHUB_ENTRYPOINT": "original",
+    "TOGGLE_MF_FHM": "off",
+    "TOGGLE_MF_PMC": "off",
+    "TOGGLE_PLP_MF_WIDGET": "off",
+    "TEST_MF_SERP_BANNER": "off",
+    "TEST_ASHISH": "0"
+  },
+  "remoteFlagsStats": {
+    "AGENT_REDESIGN_PAGE": {
+      "async": false,
+      "variants": {
+        "variantB": true
+      }
+    },
+    "CMS_CACHE_STRATEGY_TEST": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "FARO_BROWSER_LOGS": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "NAV_HEADER_VARIANT_TEST": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "PRICE_CHANGE": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "SEARCH_CREATE_ALERT_FLOW": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "SEARCH_VIEWED_PROPS": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "serpDownPaymentEgp": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "SERP_ENHANCED_FOOTER_TEST": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "SERP_PROPERTY_AGGS_ENDPOINT_TEST": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "SERP_RANKING_FACTORS": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "test136": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_AA": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_ACCOUNT_NO_COUNTRY_POD": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_ACCOUNT_WHATSAPP_CAPTCHA": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_AGENT_INFO_STICKY": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_AGENT_LEAD_WHATSAPP_CAPTCHA": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_AGENT_WHATSAPP_CAPTCHA": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_AI_SEARCH": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_BANNER_HOMEPAGE": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_BANNER_PLP": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_BANNER_SAVED_PROPERTIES": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_BANNER_SEARCH": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_BLOCK_SNOWPLOW_TRACKING": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_DATAGURU_SCOUT_FAB": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_DELETE_BY_LISTING_ID": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_EMAIL_LEAD_LISTING_ID": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_EMAIL_LEADV2_CARD": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_HIDE_FB_LOGIN": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_HOMEPAGE_BANNER": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_HOMEPAGE_REVAMP": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_IAM_CREATE_ALERT_SERP": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_IAM_REGISTER_HOME_PAGE": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_IAM_REGISTER_SERP": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_LEAD_LISTING_ID": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_LEAD_NO_COUNTRY_POD": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_LIMIT_SAVE_SEARCH": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_LISTING_ID": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_MAP_MIGRATION": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_MARKET_URGENCY": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_MF_FHM_LEAD_BANNER": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_MF_HP_BANNER": {
+      "async": false,
+      "variants": {
+        "variantC": true
+      }
+    },
+    "TEST_MF_HP_LEAD_BANNER_EMAIL": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_MF_PLP_LEAD_FORM_STICKY": {
+      "async": false,
+      "variants": {
+        "variantB": true
+      }
+    },
+    "TEST_MFR_CAMPAIGN_BANNER": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_NEW_EMAIL_LEAD": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_NEW_PROJECT_CARDS": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_NP_IN_NAVIGATION": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PERFORMANCE": {
+      "async": false,
+      "variants": {
+        "prefetchPLP": true
+      }
+    },
+    "TEST_PLP_AGENT_REVIEW": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PLP_FLOOR_PLANS_ENABLED_LATEST": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PLP_MORE_PROPERTIES": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_PLP_RENT_VS_BUY": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PLP_REVAMP": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PLP_REVIEWS": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_PLP_S3": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PLP_WHATSAPP_CAPTCHA": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_PRIMARY_AGENT": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_PRIMARY_COLLECTIONS": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_PRIMARY_DEV_LIST_DEVELOPER_PROJECTS": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_PRIMARY_LIQUIDITY": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_PRIMARY_PAYMENT_PLAN_MODAL": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_PRIMARY_PDP_ROUTE": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_PRIMARY_REVIEWS": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_PRIMARY_SCOUT_FAB": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_PRIMARY_SPONSOR_ADS": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_PRIMARY_UNIT_TYPE": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_QF_BACKWARD": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_quickfitler": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_REFINANCE_CALC_POSITION": {
+      "async": false,
+      "variants": {
+        "2": true
+      }
+    },
+    "TEST_REFINANCE_CAMPAIGN": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_SAVED_PROPERTY_IAM": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_SEARCH_HEADERS_COUNTRY_CODE": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_SEARCH_KILL_BILL_ROLLOUT": {
+      "async": false,
+      "variants": {
+        "v_ae_ce_le_pe": true
+      }
+    },
+    "TEST_SEARCH_RANKING": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_SEARCH_SPA": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_SERP_CARAT": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_SERP_REVAMP": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_SERP_REVIEWS": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TEST_SERP_SUPERAGENT": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_SERP_WHATSAPP_CAPTCHA": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_TRAVEL_TIME": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_URGENCY_TRIGGER": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_USER_PAGES": {
+      "async": false,
+      "variants": {
+        "variantA": true
+      }
+    },
+    "TEST_VALKYRIE_CAROUSAL": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TEST_WHATSAPP_CAPTCHA": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_WHATSAPP_LOGIN": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TOGGLE_BOTTOM_NAVIGATION_ENABLED": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TOGGLE_HEADER_COMMUNITIES_ENTRYPOINT": {
+      "async": false,
+      "variants": {
+        "on": true
+      }
+    },
+    "TOGGLE_HEADER_INSIGHTSHUB_ENTRYPOINT": {
+      "async": false,
+      "variants": {
+        "original": true
+      }
+    },
+    "TOGGLE_MF_FHM": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TOGGLE_MF_PMC": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TOGGLE_PLP_MF_WIDGET": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_MF_SERP_BANNER": {
+      "async": false,
+      "variants": {
+        "off": true
+      }
+    },
+    "TEST_ASHISH": {
+      "async": false,
+      "variants": {
+        "0": true
+      }
+    }
+  },
+  "remoteFlagsString": "AGENT_REDESIGN_PAGE=variantB,CMS_CACHE_STRATEGY_TEST=on,FARO_BROWSER_LOGS=original,NAV_HEADER_VARIANT_TEST=variantA,PRICE_CHANGE=original,SEARCH_CREATE_ALERT_FLOW=variantA,SEARCH_VIEWED_PROPS=variantA,serpDownPaymentEgp=variantA,SERP_ENHANCED_FOOTER_TEST=off,SERP_PROPERTY_AGGS_ENDPOINT_TEST=off,SERP_RANKING_FACTORS=on,test136=variantA,TEST_AA=original,TEST_ACCOUNT_NO_COUNTRY_POD=variantA,TEST_ACCOUNT_WHATSAPP_CAPTCHA=variantA,TEST_AGENT_INFO_STICKY=original,TEST_AGENT_LEAD_WHATSAPP_CAPTCHA=variantA,TEST_AGENT_WHATSAPP_CAPTCHA=variantA,TEST_AI_SEARCH=original,TEST_BANNER_HOMEPAGE=original,TEST_BANNER_PLP=original,TEST_BANNER_SAVED_PROPERTIES=original,TEST_BANNER_SEARCH=original,TEST_BLOCK_SNOWPLOW_TRACKING=off,TEST_DATAGURU_SCOUT_FAB=off,TEST_DELETE_BY_LISTING_ID=variantA,TEST_EMAIL_LEAD_LISTING_ID=on,TEST_EMAIL_LEADV2_CARD=variantA,TEST_HIDE_FB_LOGIN=original,TEST_HOMEPAGE_BANNER=original,TEST_HOMEPAGE_REVAMP=original,TEST_IAM_CREATE_ALERT_SERP=variantA,TEST_IAM_REGISTER_HOME_PAGE=original,TEST_IAM_REGISTER_SERP=original,TEST_LEAD_LISTING_ID=on,TEST_LEAD_NO_COUNTRY_POD=original,TEST_LIMIT_SAVE_SEARCH=variantA,TEST_LISTING_ID=on,TEST_MAP_MIGRATION=variantA,TEST_MARKET_URGENCY=original,TEST_MF_FHM_LEAD_BANNER=on,TEST_MF_HP_BANNER=variantC,TEST_MF_HP_LEAD_BANNER_EMAIL=on,TEST_MF_PLP_LEAD_FORM_STICKY=variantB,TEST_MFR_CAMPAIGN_BANNER=on,TEST_NEW_EMAIL_LEAD=variantA,TEST_NEW_PROJECT_CARDS=original,TEST_NP_IN_NAVIGATION=original,TEST_PERFORMANCE=prefetchPLP,TEST_PLP_AGENT_REVIEW=original,TEST_PLP_FLOOR_PLANS_ENABLED_LATEST=original,TEST_PLP_MORE_PROPERTIES=variantA,TEST_PLP_RENT_VS_BUY=original,TEST_PLP_REVAMP=original,TEST_PLP_REVIEWS=on,TEST_PLP_S3=original,TEST_PLP_WHATSAPP_CAPTCHA=variantA,TEST_PRIMARY_AGENT=on,TEST_PRIMARY_COLLECTIONS=off,TEST_PRIMARY_DEV_LIST_DEVELOPER_PROJECTS=off,TEST_PRIMARY_LIQUIDITY=original,TEST_PRIMARY_PAYMENT_PLAN_MODAL=off,TEST_PRIMARY_PDP_ROUTE=off,TEST_PRIMARY_REVIEWS=on,TEST_PRIMARY_SCOUT_FAB=off,TEST_PRIMARY_SPONSOR_ADS=off,TEST_PRIMARY_UNIT_TYPE=off,TEST_QF_BACKWARD=original,TEST_quickfitler=original,TEST_REFINANCE_CALC_POSITION=2,TEST_REFINANCE_CAMPAIGN=on,TEST_SAVED_PROPERTY_IAM=variantA,TEST_SEARCH_HEADERS_COUNTRY_CODE=variantA,TEST_SEARCH_KILL_BILL_ROLLOUT=v_ae_ce_le_pe,TEST_SEARCH_RANKING=original,TEST_SEARCH_SPA=variantA,TEST_SERP_CARAT=original,TEST_SERP_REVAMP=original,TEST_SERP_REVIEWS=on,TEST_SERP_SUPERAGENT=original,TEST_SERP_WHATSAPP_CAPTCHA=variantA,TEST_TRAVEL_TIME=original,TEST_URGENCY_TRIGGER=original,TEST_USER_PAGES=variantA,TEST_VALKYRIE_CAROUSAL=original,TEST_WHATSAPP_CAPTCHA=off,TEST_WHATSAPP_LOGIN=original,TOGGLE_BOTTOM_NAVIGATION_ENABLED=off,TOGGLE_HEADER_COMMUNITIES_ENTRYPOINT=on,TOGGLE_HEADER_INSIGHTSHUB_ENTRYPOINT=original,TOGGLE_MF_FHM=off,TOGGLE_MF_PMC=off,TOGGLE_PLP_MF_WIDGET=off,TEST_MF_SERP_BANNER=off,TEST_ASHISH=0",
+  "serverTraceId": "134d8e351ce9d4fcfbe6c1e8e5e9a005",
+  "adConfig": {
+    "ad_targeting": {
+      "Language": [
+        "en"
+      ],
+      "Page_app": [
+        "primary"
+      ],
+      "Page_type": [
+        "front_primary_search_results"
+      ],
+      "Section": [
+        "Primary"
+      ]
+    }
+  },
+  "agent": null,
+  "breadcrumbs": [],
+  "filtersData": {
+    "initialState": {
+      "filter[amenities]": [],
+      "filter[completion_status]": "",
+      "filter[number_of_bedrooms]": [],
+      "filter[verified]": "0",
+      "filter[trusted_agent]": "0",
+      "filter[category_id]": "5",
+      "filter[property_type_id]": "",
+      "page[number]": 1,
+      "sort": "mr",
+      "filter[locations_ids]": [],
+      "filter[developer_id]": [],
+      "filter[min_area]": null,
+      "filter[max_area]": null,
+      "filter[min_price]": null,
+      "filter[max_price]": null,
+      "filter[delivery_date_gte]": "",
+      "filter[delivery_date_lte]": "",
+      "filter[has_post_handover_payment_plan]": false,
+      "filter[has_dld_id]": false
+    },
+    "filterChoices": {
+      "filter[category_id]": [
+        {
+          "value": "2",
+          "label": "Rent",
+          "slug": [
+            "rent"
+          ]
+        },
+        {
+          "value": "1",
+          "label": "Buy",
+          "slug": [
+            "buy"
+          ]
+        },
+        {
+          "value": "4",
+          "label": "Commercial rent",
+          "slug": [
+            "commercial-rent"
+          ]
+        },
+        {
+          "value": "3",
+          "label": "Commercial buy",
+          "slug": [
+            "commercial-buy"
+          ]
+        },
+        {
+          "value": "5",
+          "label": "New Projects",
+          "slug": [
+            "new-projects"
+          ]
+        }
+      ],
+      "filter[completion_status]": [
+        {
+          "value": "",
+          "label": "",
+          "slug": []
+        },
+        {
+          "value": "off_plan",
+          "label": "Off-plan",
+          "slug": [
+            "off-plan"
+          ]
+        },
+        {
+          "value": "completed",
+          "label": "Ready",
+          "slug": [
+            "ready"
+          ]
+        }
+      ],
+      "filter[amenities]": [
+        {
+          "value": "AC",
+          "label": "Central A/C",
+          "slug": [
+            "central-a/c"
+          ]
+        },
+        {
+          "value": "MR",
+          "label": "Maids Room",
+          "slug": [
+            "maids-room"
+          ]
+        },
+        {
+          "value": "BA",
+          "label": "Balcony",
+          "slug": [
+            "balcony"
+          ]
+        },
+        {
+          "value": "SP",
+          "label": "Shared Pool",
+          "slug": [
+            "shared-pool"
+          ]
+        },
+        {
+          "value": "SS",
+          "label": "Shared Spa",
+          "slug": [
+            "shared-spa"
+          ]
+        },
+        {
+          "value": "SY",
+          "label": "Shared Gym",
+          "slug": [
+            "shared-gym"
+          ]
+        },
+        {
+          "value": "CS",
+          "label": "Concierge Service",
+          "slug": [
+            "concierge-service"
+          ]
+        },
+        {
+          "value": "CP",
+          "label": "Covered Parking",
+          "slug": [
+            "covered-parking"
+          ]
+        },
+        {
+          "value": "VW",
+          "label": "View of Water",
+          "slug": [
+            "view-of-water"
+          ]
+        },
+        {
+          "value": "BL",
+          "label": "View of Landmark",
+          "slug": [
+            "view-of-landmark"
+          ]
+        },
+        {
+          "value": "PA",
+          "label": "Pets Allowed",
+          "slug": [
+            "pets-allowed"
+          ]
+        },
+        {
+          "value": "ST",
+          "label": "Study",
+          "slug": [
+            "study"
+          ]
+        },
+        {
+          "value": "PG",
+          "label": "Private Garden",
+          "slug": [
+            "private-garden"
+          ]
+        },
+        {
+          "value": "PP",
+          "label": "Private Pool",
+          "slug": [
+            "private-pool"
+          ]
+        },
+        {
+          "value": "PY",
+          "label": "Private Gym",
+          "slug": [
+            "private-gym"
+          ]
+        },
+        {
+          "value": "PJ",
+          "label": "Private Jacuzzi",
+          "slug": [
+            "private-jacuzzi"
+          ]
+        },
+        {
+          "value": "BW",
+          "label": "Built in Wardrobes",
+          "slug": [
+            "built-in-wardrobes"
+          ]
+        },
+        {
+          "value": "WC",
+          "label": "Walk-in Closet",
+          "slug": [
+            "walk-in-closet"
+          ]
+        },
+        {
+          "value": "BK",
+          "label": "Built in Kitchen Appliances",
+          "slug": [
+            "built-in-kitchen-appliances"
+          ]
+        },
+        {
+          "value": "MS",
+          "label": "Maid Service",
+          "slug": [
+            "maid-service"
+          ]
+        },
+        {
+          "value": "PR",
+          "label": "Children's Play Area",
+          "slug": [
+            "children's-play-area"
+          ]
+        },
+        {
+          "value": "CO",
+          "label": "Children's Pool",
+          "slug": [
+            "children's-pool"
+          ]
+        },
+        {
+          "value": "BR",
+          "label": "Barbecue Area",
+          "slug": [
+            "barbecue-area"
+          ]
+        }
+      ],
+      "filter[number_of_bedrooms]": [
+        {
+          "value": "0",
+          "label": "Studio",
+          "slug": [
+            "studios",
+            "studio"
+          ]
+        },
+        {
+          "value": "1",
+          "label": "1 Bedroom",
+          "slug": [
+            "1-bedroom"
+          ]
+        },
+        {
+          "value": "2",
+          "label": "2 Bedrooms",
+          "slug": [
+            "2-bedrooms",
+            "2-bedroom"
+          ]
+        },
+        {
+          "value": "3",
+          "label": "3 Bedrooms",
+          "slug": [
+            "3-bedrooms",
+            "3-bedroom"
+          ]
+        },
+        {
+          "value": "4",
+          "label": "4 Bedrooms",
+          "slug": [
+            "4-bedrooms",
+            "4-bedroom"
+          ]
+        },
+        {
+          "value": "5",
+          "label": "5 Bedrooms",
+          "slug": [
+            "5-bedrooms",
+            "5-bedroom"
+          ]
+        },
+        {
+          "value": "6",
+          "label": "6 Bedrooms",
+          "slug": [
+            "6-bedrooms",
+            "6-bedroom"
+          ]
+        },
+        {
+          "value": "7",
+          "label": "7 Bedrooms",
+          "slug": [
+            "7-bedrooms",
+            "7-bedroom"
+          ]
+        },
+        {
+          "value": "8",
+          "label": "7+ Bedrooms",
+          "slug": [
+            "7+-bedrooms"
+          ]
+        }
+      ],
+      "filter[property_type_id]": [
+        {
+          "value": "",
+          "label": "",
+          "slug": []
+        },
+        {
+          "value": "1",
+          "label": "Apartment",
+          "slug": [
+            "apartment"
+          ]
+        },
+        {
+          "value": "20",
+          "label": "Penthouse",
+          "slug": [
+            "penthouse"
+          ]
+        },
+        {
+          "value": "22",
+          "label": "Townhouse",
+          "slug": [
+            "townhouse"
+          ]
+        },
+        {
+          "value": "24",
+          "label": "Duplex",
+          "slug": [
+            "duplex"
+          ]
+        },
+        {
+          "value": "35",
+          "label": "Villa",
+          "slug": [
+            "villa"
+          ]
+        }
+      ],
+      "sort": [
+        {
+          "value": "mr",
+          "label": "Featured",
+          "slug": [
+            "featured"
+          ]
+        },
+        {
+          "value": "pa",
+          "label": "Price (low)",
+          "slug": [
+            "price-(low)"
+          ]
+        },
+        {
+          "value": "pd",
+          "label": "Price (high)",
+          "slug": [
+            "price-(high)"
+          ]
+        },
+        {
+          "value": "da",
+          "label": "Delivery date (earliest)",
+          "slug": [
+            "delivery-date-(earliest)"
+          ]
+        },
+        {
+          "value": "dd",
+          "label": "Delivery date (latest)",
+          "slug": [
+            "delivery-date-(latest)"
+          ]
+        }
+      ],
+      "filter[verified]": [
+        {
+          "value": "0",
+          "label": "Not Verified",
+          "slug": [
+            "not-verified"
+          ]
+        },
+        {
+          "value": "1",
+          "label": "Verified",
+          "slug": [
+            "verified"
+          ]
+        }
+      ],
+      "filter[trusted_agent]": [
+        {
+          "value": "0",
+          "label": "Not SuperAgent",
+          "slug": [
+            "not-superagent"
+          ]
+        },
+        {
+          "value": "1",
+          "label": "SuperAgent",
+          "slug": [
+            "superagent"
+          ]
+        }
+      ],
+      "filter[min_area]": [
+        {
+          "value": null,
+          "label": "",
+          "slug": []
+        },
+        {
+          "value": 500,
+          "label": "500 sqft",
+          "slug": [
+            "500-sqft"
+          ]
+        },
+        {
+          "value": 600,
+          "label": "600 sqft",
+          "slug": [
+            "600-sqft"
+          ]
+        },
+        {
+          "value": 700,
+          "label": "700 sqft",
+          "slug": [
+            "700-sqft"
+          ]
+        },
+        {
+          "value": 800,
+          "label": "800 sqft",
+          "slug": [
+            "800-sqft"
+          ]
+        },
+        {
+          "value": 900,
+          "label": "900 sqft",
+          "slug": [
+            "900-sqft"
+          ]
+        },
+        {
+          "value": 1000,
+          "label": "1,000 sqft",
+          "slug": [
+            "1,000-sqft"
+          ]
+        },
+        {
+          "value": 1100,
+          "label": "1,100 sqft",
+          "slug": [
+            "1,100-sqft"
+          ]
+        },
+        {
+          "value": 1200,
+          "label": "1,200 sqft",
+          "slug": [
+            "1,200-sqft"
+          ]
+        },
+        {
+          "value": 1300,
+          "label": "1,300 sqft",
+          "slug": [
+            "1,300-sqft"
+          ]
+        },
+        {
+          "value": 1400,
+          "label": "1,400 sqft",
+          "slug": [
+            "1,400-sqft"
+          ]
+        },
+        {
+          "value": 1500,
+          "label": "1,500 sqft",
+          "slug": [
+            "1,500-sqft"
+          ]
+        },
+        {
+          "value": 1600,
+          "label": "1,600 sqft",
+          "slug": [
+            "1,600-sqft"
+          ]
+        },
+        {
+          "value": 1800,
+          "label": "1,800 sqft",
+          "slug": [
+            "1,800-sqft"
+          ]
+        },
+        {
+          "value": 2000,
+          "label": "2,000 sqft",
+          "slug": [
+            "2,000-sqft"
+          ]
+        },
+        {
+          "value": 2200,
+          "label": "2,200 sqft",
+          "slug": [
+            "2,200-sqft"
+          ]
+        },
+        {
+          "value": 2400,
+          "label": "2,400 sqft",
+          "slug": [
+            "2,400-sqft"
+          ]
+        },
+        {
+          "value": 2600,
+          "label": "2,600 sqft",
+          "slug": [
+            "2,600-sqft"
+          ]
+        },
+        {
+          "value": 2800,
+          "label": "2,800 sqft",
+          "slug": [
+            "2,800-sqft"
+          ]
+        },
+        {
+          "value": 3000,
+          "label": "3,000 sqft",
+          "slug": [
+            "3,000-sqft"
+          ]
+        },
+        {
+          "value": 3200,
+          "label": "3,200 sqft",
+          "slug": [
+            "3,200-sqft"
+          ]
+        },
+        {
+          "value": 3400,
+          "label": "3,400 sqft",
+          "slug": [
+            "3,400-sqft"
+          ]
+        },
+        {
+          "value": 3600,
+          "label": "3,600 sqft",
+          "slug": [
+            "3,600-sqft"
+          ]
+        },
+        {
+          "value": 3800,
+          "label": "3,800 sqft",
+          "slug": [
+            "3,800-sqft"
+          ]
+        },
+        {
+          "value": 4200,
+          "label": "4,200 sqft",
+          "slug": [
+            "4,200-sqft"
+          ]
+        },
+        {
+          "value": 4600,
+          "label": "4,600 sqft",
+          "slug": [
+            "4,600-sqft"
+          ]
+        },
+        {
+          "value": 5000,
+          "label": "5,000 sqft",
+          "slug": [
+            "5,000-sqft"
+          ]
+        },
+        {
+          "value": 5400,
+          "label": "5,400 sqft",
+          "slug": [
+            "5,400-sqft"
+          ]
+        },
+        {
+          "value": 5800,
+          "label": "5,800 sqft",
+          "slug": [
+            "5,800-sqft"
+          ]
+        },
+        {
+          "value": 6200,
+          "label": "6,200 sqft",
+          "slug": [
+            "6,200-sqft"
+          ]
+        },
+        {
+          "value": 6600,
+          "label": "6,600 sqft",
+          "slug": [
+            "6,600-sqft"
+          ]
+        },
+        {
+          "value": 7000,
+          "label": "7,000 sqft",
+          "slug": [
+            "7,000-sqft"
+          ]
+        },
+        {
+          "value": 7400,
+          "label": "7,400 sqft",
+          "slug": [
+            "7,400-sqft"
+          ]
+        },
+        {
+          "value": 7800,
+          "label": "7,800 sqft",
+          "slug": [
+            "7,800-sqft"
+          ]
+        },
+        {
+          "value": 8200,
+          "label": "8,200 sqft",
+          "slug": [
+            "8,200-sqft"
+          ]
+        },
+        {
+          "value": 9000,
+          "label": "9,000 sqft",
+          "slug": [
+            "9,000-sqft"
+          ]
+        }
+      ],
+      "filter[max_area]": [
+        {
+          "value": null,
+          "label": "",
+          "slug": []
+        },
+        {
+          "value": 500,
+          "label": "500 sqft",
+          "slug": [
+            "500-sqft"
+          ]
+        },
+        {
+          "value": 600,
+          "label": "600 sqft",
+          "slug": [
+            "600-sqft"
+          ]
+        },
+        {
+          "value": 700,
+          "label": "700 sqft",
+          "slug": [
+            "700-sqft"
+          ]
+        },
+        {
+          "value": 800,
+          "label": "800 sqft",
+          "slug": [
+            "800-sqft"
+          ]
+        },
+        {
+          "value": 900,
+          "label": "900 sqft",
+          "slug": [
+            "900-sqft"
+          ]
+        },
+        {
+          "value": 1000,
+          "label": "1,000 sqft",
+          "slug": [
+            "1,000-sqft"
+          ]
+        },
+        {
+          "value": 1100,
+          "label": "1,100 sqft",
+          "slug": [
+            "1,100-sqft"
+          ]
+        },
+        {
+          "value": 1200,
+          "label": "1,200 sqft",
+          "slug": [
+            "1,200-sqft"
+          ]
+        },
+        {
+          "value": 1300,
+          "label": "1,300 sqft",
+          "slug": [
+            "1,300-sqft"
+          ]
+        },
+        {
+          "value": 1400,
+          "label": "1,400 sqft",
+          "slug": [
+            "1,400-sqft"
+          ]
+        },
+        {
+          "value": 1500,
+          "label": "1,500 sqft",
+          "slug": [
+            "1,500-sqft"
+          ]
+        },
+        {
+          "value": 1600,
+          "label": "1,600 sqft",
+          "slug": [
+            "1,600-sqft"
+          ]
+        },
+        {
+          "value": 1800,
+          "label": "1,800 sqft",
+          "slug": [
+            "1,800-sqft"
+          ]
+        },
+        {
+          "value": 2000,
+          "label": "2,000 sqft",
+          "slug": [
+            "2,000-sqft"
+          ]
+        },
+        {
+          "value": 2200,
+          "label": "2,200 sqft",
+          "slug": [
+            "2,200-sqft"
+          ]
+        },
+        {
+          "value": 2400,
+          "label": "2,400 sqft",
+          "slug": [
+            "2,400-sqft"
+          ]
+        },
+        {
+          "value": 2600,
+          "label": "2,600 sqft",
+          "slug": [
+            "2,600-sqft"
+          ]
+        },
+        {
+          "value": 2800,
+          "label": "2,800 sqft",
+          "slug": [
+            "2,800-sqft"
+          ]
+        },
+        {
+          "value": 3000,
+          "label": "3,000 sqft",
+          "slug": [
+            "3,000-sqft"
+          ]
+        },
+        {
+          "value": 3200,
+          "label": "3,200 sqft",
+          "slug": [
+            "3,200-sqft"
+          ]
+        },
+        {
+          "value": 3400,
+          "label": "3,400 sqft",
+          "slug": [
+            "3,400-sqft"
+          ]
+        },
+        {
+          "value": 3600,
+          "label": "3,600 sqft",
+          "slug": [
+            "3,600-sqft"
+          ]
+        },
+        {
+          "value": 3800,
+          "label": "3,800 sqft",
+          "slug": [
+            "3,800-sqft"
+          ]
+        },
+        {
+          "value": 4200,
+          "label": "4,200 sqft",
+          "slug": [
+            "4,200-sqft"
+          ]
+        },
+        {
+          "value": 4600,
+          "label": "4,600 sqft",
+          "slug": [
+            "4,600-sqft"
+          ]
+        },
+        {
+          "value": 5000,
+          "label": "5,000 sqft",
+          "slug": [
+            "5,000-sqft"
+          ]
+        },
+        {
+          "value": 5400,
+          "label": "5,400 sqft",
+          "slug": [
+            "5,400-sqft"
+          ]
+        },
+        {
+          "value": 5800,
+          "label": "5,800 sqft",
+          "slug": [
+            "5,800-sqft"
+          ]
+        },
+        {
+          "value": 6200,
+          "label": "6,200 sqft",
+          "slug": [
+            "6,200-sqft"
+          ]
+        },
+        {
+          "value": 6600,
+          "label": "6,600 sqft",
+          "slug": [
+            "6,600-sqft"
+          ]
+        },
+        {
+          "value": 7000,
+          "label": "7,000 sqft",
+          "slug": [
+            "7,000-sqft"
+          ]
+        },
+        {
+          "value": 7400,
+          "label": "7,400 sqft",
+          "slug": [
+            "7,400-sqft"
+          ]
+        },
+        {
+          "value": 7800,
+          "label": "7,800 sqft",
+          "slug": [
+            "7,800-sqft"
+          ]
+        },
+        {
+          "value": 8200,
+          "label": "8,200 sqft",
+          "slug": [
+            "8,200-sqft"
+          ]
+        },
+        {
+          "value": 9000,
+          "label": "9,000 sqft",
+          "slug": [
+            "9,000-sqft"
+          ]
+        }
+      ],
+      "filter[delivery_date_gte]": [
+        {
+          "value": "",
+          "label": "All dates",
+          "slug": [
+            "all-dates"
+          ]
+        },
+        {
+          "value": "completed",
+          "label": "Ready",
+          "slug": [
+            "ready"
+          ]
+        },
+        {
+          "value": "2025-01-01T00:00:00Z",
+          "label": "Q1 2025",
+          "slug": [
+            "2025-01-01T00:00:00Z",
+            "2025-03-31T23:59:59Z"
+          ]
+        },
+        {
+          "value": "2025-04-01T00:00:00Z",
+          "label": "Q2 2025",
+          "slug": [
+            "2025-04-01T00:00:00Z",
+            "2025-06-30T23:59:59Z"
+          ]
+        },
+        {
+          "value": "2025-07-01T00:00:00Z",
+          "label": "Q3 2025",
+          "slug": [
+            "2025-07-01T00:00:00Z",
+            "2025-09-30T23:59:59Z"
+          ]
+        },
+        {
+          "value": "2025-10-01T00:00:00Z",
+          "label": "Q4 2025",
+          "slug": [
+            "2025-10-01T00:00:00Z",
+            "2025-12-31T23:59:59Z"
+          ]
+        },
+        {
+          "value": "2026-01-01T00:00:00Z",
+          "label": "2026",
+          "slug": [
+            "2026-01-01T00:00:00Z",
+            "2026-12-31T23:59:59Z"
+          ]
+        },
+        {
+          "value": "2027-01-01T00:00:00Z",
+          "label": "Later",
+          "slug": [
+            "2027-01-01T00:00:00Z",
+            ""
+          ]
+        }
+      ]
+    }
+  },
+  "filtersValueFromQuery": {
+    "filter[amenities]": [],
+    "filter[number_of_bedrooms]": [],
+    "filter[category_id]": "5",
+    "filter[completion_status]": "",
+    "filter[delivery_date_gte]": "",
+    "filter[delivery_date_lte]": "",
+    "filter[developer_id]": [],
+    "filter[has_dld_id]": false,
+    "filter[has_post_handover_payment_plan]": false,
+    "filter[locations_ids]": [],
+    "filter[max_area]": null,
+    "filter[max_price]": null,
+    "filter[min_area]": null,
+    "filter[min_price]": null,
+    "page[number]": 1,
+    "filter[property_type_id]": "",
+    "sort": "mr",
+    "filter[trusted_agent]": false,
+    "filter[verified]": false
+  },
+  "isLandingPage": false,
+  "pageUrl": "new-projects/index",
+  "searchResult": {
+    "data": {
+      "aggregationLinks": [
+        {
+          "count": 497,
+          "id": 2254,
+          "lpSlug": "/en/new-projects/lp/القاهرة/cairo",
+          "name": "Cairo",
+          "slug": "القاهرة/cairo"
+        },
+        {
+          "count": 364,
+          "id": 20663,
+          "lpSlug": "/en/new-projects/lp/الجيزة/giza",
+          "name": "Giza",
+          "slug": "الجيزة/giza"
+        },
+        {
+          "count": 206,
+          "id": 37579,
+          "lpSlug": "/en/new-projects/lp/الساحل-الشمالي/north-coast",
+          "name": "North Coast",
+          "slug": "الساحل-الشمالي/north-coast"
+        },
+        {
+          "count": 58,
+          "id": 37808,
+          "lpSlug": "/en/new-projects/lp/محافظة-البحر-الاحمر/red-sea",
+          "name": "Red Sea",
+          "slug": "محافظة-البحر-الاحمر/red-sea"
+        },
+        {
+          "count": 54,
+          "id": 40337,
+          "lpSlug": "/en/new-projects/lp/السويس/suez",
+          "name": "Suez",
+          "slug": "السويس/suez"
+        },
+        {
+          "count": 19,
+          "id": 30754,
+          "lpSlug": "/en/new-projects/lp/الاسكندرية/alexandria",
+          "name": "Alexandria",
+          "slug": "الاسكندرية/alexandria"
+        },
+        {
+          "count": 13,
+          "id": 38191,
+          "lpSlug": "/en/new-projects/lp/القليوبية/qalyubia",
+          "name": "Qalyubia",
+          "slug": "القليوبية/qalyubia"
+        },
+        {
+          "count": 10,
+          "id": 21,
+          "lpSlug": "/en/new-projects/lp/محافظة-جنوب-سيناء/south-sainai",
+          "name": "South Sainai",
+          "slug": "محافظة-جنوب-سيناء/south-sainai"
+        },
+        {
+          "count": 4,
+          "id": 15,
+          "lpSlug": "/en/new-projects/lp/بورسعيد/port-saeed",
+          "name": "Port Saeed",
+          "slug": "بورسعيد/port-saeed"
+        },
+        {
+          "count": 3,
+          "id": 5,
+          "lpSlug": "/en/new-projects/lp/الدقهلية/al-daqahlya",
+          "name": "Al Daqahlya",
+          "slug": "الدقهلية/al-daqahlya"
+        },
+        {
+          "count": 3,
+          "id": 13,
+          "lpSlug": "/en/new-projects/lp/سوهاج/sohag",
+          "name": "Sohag",
+          "slug": "سوهاج/sohag"
+        },
+        {
+          "count": 2,
+          "id": 9,
+          "lpSlug": "/en/new-projects/lp/دمياط/demyat",
+          "name": "Demyat",
+          "slug": "دمياط/demyat"
+        },
+        {
+          "count": 2,
+          "id": 16,
+          "lpSlug": "/en/new-projects/lp/مطروح/matrouh",
+          "name": "Matrouh",
+          "slug": "مطروح/matrouh"
+        },
+        {
+          "count": 1,
+          "id": 10,
+          "lpSlug": "/en/new-projects/lp/أسيوط/asyut",
+          "name": "Asyut",
+          "slug": "أسيوط/asyut"
+        }
+      ],
+      "locationTitle": "Egypt",
+      "priceBracket": {
+        "max": 300000000,
+        "min": 10500
+      },
+      "projects": [
+        {
+          "amenities": [
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "89cf0232-752e-470f-8770-d52fd419bd56",
+              "name": "Beach Access"
+            },
+            {
+              "id": "9b8fd993-144d-433a-aeb5-62dd9eed39cd",
+              "name": "Indoor Swimming Pool"
+            }
+          ],
+          "bedrooms": [
+            "1",
+            "2",
+            "3"
+          ],
+          "campaignType": "project",
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Cali+Coast+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fmaven-developments%2Fcali-coast%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2026-08-30T22:15:00Z",
+          "developer": {
+            "id": "d5f4b731-4da4-4f64-955d-e295477b9d1e",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/d5f4b731-4da4-4f64-955d-e295477b9d1e/logo/image/i5YSn3nSrkvz8T_AIYLGFn_0fNXnXcnGwIdHXCUkyGk=/original.webp",
+            "name": "Maven Developments"
+          },
+          "downPaymentPercentage": 5,
+          "hotnessLevel": 75,
+          "id": "f8ec5317-523c-4bbb-9fee-51bb769681ad",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/f8ec5317-523c-4bbb-9fee-51bb769681ad/gallery/image/cflhRQRUxiU5GkjWDJntJDUXEtGaECZqoRPunUaDIYw=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/f8ec5317-523c-4bbb-9fee-51bb769681ad/gallery/image/f3VbuTmunYGPRKULdcryoWhK5PRcuGB72gSiL_jandI=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/f8ec5317-523c-4bbb-9fee-51bb769681ad/gallery/image/Fe6ADwq1KBorqUu5wCzVDTnKf_wpVc7NF-wCpzVKzwg=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/f8ec5317-523c-4bbb-9fee-51bb769681ad/gallery/image/AIS6ZBaQDPrVIoqpxS1o_WtofdP-Gz_oZf1vaGnlSfs=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/f8ec5317-523c-4bbb-9fee-51bb769681ad/gallery/image/QuoAftLCczPK3F6dNHFKaGXnFRxACk_N2AhrKfZQgDI=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.0871397,
+              "lon": 28.1002991,
+              "lng": 28.1002991
+            },
+            "fullName": "North Coast,Ras Al Hekma,Cali Coast",
+            "id": 41238
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "5",
+            "10"
+          ],
+          "priceRange": {
+            "max": 25323000,
+            "min": 8600000
+          },
+          "propertyTypes": [
+            "villa",
+            "apartment",
+            "townhouse"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/maven-developments/cali-coast",
+          "startingPrice": 6000000,
+          "stockAvailability": "available",
+          "title": "Cali Coast",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "019ff385-1d6f-4409-b117-065b0a644fa3",
+              "name": "Bicycle Track"
+            },
+            {
+              "id": "40039522-2014-4817-b7d2-970c3b2a9d45",
+              "name": "Running Track"
+            },
+            {
+              "id": "3d40742d-da1d-454e-917a-6c09922726ac",
+              "name": "Restaurants"
+            },
+            {
+              "id": "fc7baf9e-89d9-42ad-9396-04594c6e600e",
+              "name": "Mosque"
+            },
+            {
+              "id": "9b8fd993-144d-433a-aeb5-62dd9eed39cd",
+              "name": "Indoor Swimming Pool"
+            }
+          ],
+          "bedrooms": [
+            "2",
+            "3"
+          ],
+          "campaignType": "project",
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+DeJoya+4+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Ftaj-misr-development%2Fde-joya-4%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2029-12-31T20:00:00Z",
+          "developer": {
+            "id": "4a262f9a-ed86-4fc9-ac75-33089c78dcee",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/4a262f9a-ed86-4fc9-ac75-33089c78dcee/logo/image/SxLx5WCnv6qE4zfC_1750jQTtzlOuyPXySPnYNzHXi8=/original.png",
+            "name": "Taj Misr Development"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 82,
+          "id": "52832183-7cdf-4186-8749-2a16ba499fc5",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/aWhHwJA6UYiNPNv8Lo9G7ZLheUHv7Ar7aeDk9cX3fdc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/P-0T1Us-nNARej7WhFmPQYHUp9nH-eGMnro3SBFjc8U=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/8j34xQ5dR3qL7cDNSe-QiRWKXZZpXn3pe-RVGuBwO28=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/1u-Yck9ABYNfQ3i-0EZER64EdDhTAuMxgIm88Y2yDlw=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/9I8Z3Gq91-uwYSbIAUMmsDMxDeNSwN-DeNNDSDjyfrk=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/k6rgRZmR3lLijZMJGmqZ6_AnIAPoLIWobtEqNX2SIl4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/pCGpX5OSVdOuRxeq78WmQSPCJ0rtcjeyVLlw8hootgA=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/AJhbYn3ZR1AOH8KRv9Y499TIPptl0sCGQm2fG3zQ_gg=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/ADReDSUjt98OMp9jexAsjkbIPLVdhy7A6fuiwC5Dmlc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/KhCDU8S8Uz4q_9V5GhXiSe0Zet_0d43Lox02pArNGNc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/52832183-7cdf-4186-8749-2a16ba499fc5/gallery/image/XBzz_pZyUG4BY5U73Gsa2gFemC1WLL0qf_YnXF2IPdY=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.0187908733,
+              "lon": 31.7320660153,
+              "lng": 31.7320660153
+            },
+            "fullName": "Cairo,New Capital City,DeJoya 4",
+            "id": 42249
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10"
+          ],
+          "priceRange": {
+            "max": 5165597,
+            "min": 4511894
+          },
+          "propertyTypes": [
+            "apartment",
+            "duplex"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/taj-misr-development/de-joya-4",
+          "startingPrice": 4511894,
+          "stockAvailability": "available",
+          "title": "DeJoya 4",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "f06afd67-8785-4ac4-b61a-a89c27131e4b",
+              "name": "Parking"
+            },
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "d724d2fb-f269-4ce5-a695-608819a9c451",
+              "name": "Medical Facilites"
+            },
+            {
+              "id": "fb047801-92e5-4b80-8e2e-b571b284666b",
+              "name": "Mall"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "747ecb67-1b7b-4a40-8738-fddc11c11435",
+              "name": "Garage"
+            },
+            {
+              "id": "0661e584-e5b6-4bec-8f95-71fb0709df39",
+              "name": "Cycle track"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "019ff385-1d6f-4409-b117-065b0a644fa3",
+              "name": "Bicycle Track"
+            },
+            {
+              "id": "a0716caf-70b9-45fa-93d2-b4ba2be46e39",
+              "name": "Walkways"
+            },
+            {
+              "id": "40039522-2014-4817-b7d2-970c3b2a9d45",
+              "name": "Running Track"
+            },
+            {
+              "id": "14816288-6a00-40dc-b809-d31bc9aed934",
+              "name": "On-Site Maintenance"
+            },
+            {
+              "id": "37a20f54-7040-440d-9ff7-28e4d5b2be86",
+              "name": "Laundry and Dry Cleaning Services"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "9b8fd993-144d-433a-aeb5-62dd9eed39cd",
+              "name": "Indoor Swimming Pool"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": "project",
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Winter+Park+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fdominar-developments%2Fwinter-park%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2029-12-31T09:49:08.862Z",
+          "developer": {
+            "id": "9fe19115-10f4-45f6-8713-e801b671b5a4",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/9fe19115-10f4-45f6-8713-e801b671b5a4/logo/image/f9-z16aQEPcKNLxioIDrBPgTs8bVUz5qUR6tLN2xp5A=/original.png",
+            "name": "Dominar Developments"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 92,
+          "id": "e264357e-7d69-42a2-af33-986a9e7b6c97",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/e264357e-7d69-42a2-af33-986a9e7b6c97/gallery/image/FiO8oAb5jaHjrI63Lpoq8r6GAFx1vsC-1ZS-EOViPLs=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/e264357e-7d69-42a2-af33-986a9e7b6c97/gallery/image/68HXg2qaATqA4mBhjguHNNl0TmZDYDbZKImAfawbJ-4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/e264357e-7d69-42a2-af33-986a9e7b6c97/gallery/image/0Oie0qOoPIsahTXMqnjKONTr4d2K0XZxFw-Evv9XVmw=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/e264357e-7d69-42a2-af33-986a9e7b6c97/gallery/image/R4IzMx-HhmPBHFo7DfV-L_YLmCdAzXdjoV2Gb2gcZuY=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 29.975614,
+              "lon": 31.782954,
+              "lng": 31.782954
+            },
+            "fullName": "Cairo,New Capital City,R8",
+            "id": 41804
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10"
+          ],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/dominar-developments/winter-park",
+          "startingPrice": 4100000,
+          "stockAvailability": "available",
+          "title": "Winter Park",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "cd9ce638-861b-4b9f-877d-11a7bc7d8055",
+              "name": "Gated Community"
+            },
+            {
+              "id": "c77429f2-ed19-40c6-9be5-7bdbeeb818e4",
+              "name": "Fully Serviced"
+            },
+            {
+              "id": "89cf0232-752e-470f-8770-d52fd419bd56",
+              "name": "Beach Access"
+            },
+            {
+              "id": "5c6a5637-5b4f-4edc-9f47-d753dea41898",
+              "name": "Well-being and Fitness"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": "project",
+          "constructionPhase": "completed",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Zahra+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fmemaar-el-morshedy%2Fzahra%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2024-12-31T04:58:47.704Z",
+          "developer": {
+            "id": "de86bfb0-4450-4f88-9c57-6118d81ba214",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/de86bfb0-4450-4f88-9c57-6118d81ba214/logo/image/0qhQ1upsP5ZMvKE7SAGDydeF2WoIy-ZtcG6DueZA6sc=/original.png",
+            "name": "Morshedy Group"
+          },
+          "downPaymentPercentage": 5,
+          "hotnessLevel": 77,
+          "id": "0888108c-90c0-4cea-b824-35a23c727ae6",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/917gKeDkLi1TZPsEFgyINRANufoozmoi_hLW-EG2S5c=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/YRjURCT0sHJQVCXT0SK5jpzGZywxs5W0_lXNlBBq34Q=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/7aY03JkI8gr-Qfp6YWMj8z0PUecJ6aNcflaIuLhJEA8=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/vJ2AorfT-tiq_FQfaN0vUP0KrUca3mAEeaSLiq_LF8I=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/Tg3Uarj6DuGgziJYzmbt20CM0uRoTHWh8_LZfzhGdFc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/z1hpdO1xXsor_mocQeuvGo4XsN21QYqbbQLcxRJGZgU=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/axq97HCM178CROBNRm5u3ERsb3xS2RdQohSKva7Ktsc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/lmGewylrNHPqzNB7b1dNt69q8v730mfkjVfeySguW4Q=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/vYS4pCjFZdd66Jul6EjlHcx1mYE-IXRmpALDK7-X4wo=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/2qgnOzJkr2ZVkK7KbcRQztSa0M58CqWsSUohcHqzWNw=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0888108c-90c0-4cea-b824-35a23c727ae6/gallery/image/0svz4-LIkRI-gcVVpGYlJlTVOPT3dqGEpAzZRuaCN04=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 0,
+              "lon": 0,
+              "lng": 0
+            },
+            "fullName": "North Coast,Sidi Abdel Rahman,Zahra",
+            "id": 41042
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "5"
+          ],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/memaar-el-morshedy/zahra",
+          "startingPrice": 7111000,
+          "stockAvailability": "available",
+          "title": "Zahra",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "f06afd67-8785-4ac4-b61a-a89c27131e4b",
+              "name": "Parking"
+            },
+            {
+              "id": "1a9fee7b-f640-474d-abe5-72679462ad0c",
+              "name": "Hyper Market"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "57182006-e477-43b0-b515-8be769e93c9a",
+              "name": "Gymnasium"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "7e9f7b57-85bb-46e0-962d-ec75bc6fe49b",
+              "name": "Basement Parking"
+            },
+            {
+              "id": "a0716caf-70b9-45fa-93d2-b4ba2be46e39",
+              "name": "Walkways"
+            },
+            {
+              "id": "7a12b3f8-e642-48e8-8c6c-6b59443bf25f",
+              "name": "Retail Facilities"
+            },
+            {
+              "id": "14816288-6a00-40dc-b809-d31bc9aed934",
+              "name": "On-Site Maintenance"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "5c6a5637-5b4f-4edc-9f47-d753dea41898",
+              "name": "Well-being and Fitness"
+            }
+          ],
+          "bedrooms": [
+            "2",
+            "3"
+          ],
+          "campaignType": "project",
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Towers+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fmorshedy-group%2Ftowers%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": null,
+          "developer": {
+            "id": "de86bfb0-4450-4f88-9c57-6118d81ba214",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/de86bfb0-4450-4f88-9c57-6118d81ba214/logo/image/0qhQ1upsP5ZMvKE7SAGDydeF2WoIy-ZtcG6DueZA6sc=/original.png",
+            "name": "Morshedy Group"
+          },
+          "downPaymentPercentage": 5,
+          "hotnessLevel": 99,
+          "id": "479867d9-0b9d-47d4-9468-454dc7362d25",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/479867d9-0b9d-47d4-9468-454dc7362d25/gallery/image/P0FQWH_t9NzkDEXGNMKegRB4-4iJVI1UynpIYv1Srp0=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/479867d9-0b9d-47d4-9468-454dc7362d25/gallery/image/mLG1k5wrhSLrZoGFsqc3-GEO6QvznxIuEJCv0X_Y0OQ=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/479867d9-0b9d-47d4-9468-454dc7362d25/gallery/image/KRfZTAP5y9NgXMtP_hwrpTqrLuffVPuORjTYLNk6hR0=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/479867d9-0b9d-47d4-9468-454dc7362d25/gallery/image/FxXI_0cHsfu_r3gtwEV3HUW2mmcejU40g42sI-5RUSA=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/479867d9-0b9d-47d4-9468-454dc7362d25/gallery/image/amkNpcr0HnCDluiDWNBbHgGHJs_r7aI6eYyuPpVISKA=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/479867d9-0b9d-47d4-9468-454dc7362d25/gallery/image/rtCCUU5Vfj8xNWTu9eNaxexBRDl2sCDEYDHdY4c-2QQ=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.05627988,
+              "lon": 31.33063853,
+              "lng": 31.33063853
+            },
+            "fullName": "Cairo,Nasr City",
+            "id": 2945
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "5"
+          ],
+          "priceRange": null,
+          "propertyTypes": [
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/morshedy-group/towers",
+          "startingPrice": 4851000,
+          "stockAvailability": "available",
+          "title": "Towers",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "f5f9faba-b821-4a0b-bae0-a8149da7fb08",
+              "name": "Lakes"
+            },
+            {
+              "id": "57182006-e477-43b0-b515-8be769e93c9a",
+              "name": "Gymnasium"
+            },
+            {
+              "id": "a2ecb4ec-83af-4c3c-80de-ce7c10ea1dba",
+              "name": "Children Nursery"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "40039522-2014-4817-b7d2-970c3b2a9d45",
+              "name": "Running Track"
+            },
+            {
+              "id": "fc7baf9e-89d9-42ad-9396-04594c6e600e",
+              "name": "Mosque"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": "project",
+          "constructionPhase": "completed",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Lakefront+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fmemaar-el-morshedy%2Flake-front%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2023-03-31T10:12:51.54Z",
+          "developer": {
+            "id": "de86bfb0-4450-4f88-9c57-6118d81ba214",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/de86bfb0-4450-4f88-9c57-6118d81ba214/logo/image/0qhQ1upsP5ZMvKE7SAGDydeF2WoIy-ZtcG6DueZA6sc=/original.png",
+            "name": "Morshedy Group"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 77,
+          "id": "d736866b-c2c5-4b11-a0cb-5cb2f1b0bd0b",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/d736866b-c2c5-4b11-a0cb-5cb2f1b0bd0b/gallery/image/sYSEFTYf7XLyBhjEGIJNMTb7aF-JC1rRAThffnYwviw=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/d736866b-c2c5-4b11-a0cb-5cb2f1b0bd0b/gallery/image/05669O9IhOkCgoC6ayVvTxwafOg6wMYmh0CddUbMUhE=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/d736866b-c2c5-4b11-a0cb-5cb2f1b0bd0b/gallery/image/gZv6aK4Wi3nOgedRGP4ImjyIfHLA1u-7Ly8RJt1Z1RY=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/d736866b-c2c5-4b11-a0cb-5cb2f1b0bd0b/gallery/image/ZkDEEYyFl_AxPdG6ifmib0RB4Bd6apnXMx72w-da5i8=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/d736866b-c2c5-4b11-a0cb-5cb2f1b0bd0b/gallery/image/drk07l2Uj-VP9FPTpNo7T1fjZkeGA_Urbth6y4o6BMg=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 29.941552,
+              "lon": 31.076031,
+              "lng": 31.076031
+            },
+            "fullName": "Giza,6 October City,Hadayek October,lakefront",
+            "id": 21171
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10"
+          ],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/memaar-el-morshedy/lake-front",
+          "startingPrice": 7467500,
+          "stockAvailability": "available",
+          "title": "Lakefront",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "f06afd67-8785-4ac4-b61a-a89c27131e4b",
+              "name": "Parking"
+            },
+            {
+              "id": "1a9fee7b-f640-474d-abe5-72679462ad0c",
+              "name": "Hyper Market"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "a0716caf-70b9-45fa-93d2-b4ba2be46e39",
+              "name": "Walkways"
+            },
+            {
+              "id": "7a12b3f8-e642-48e8-8c6c-6b59443bf25f",
+              "name": "Retail Facilities"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [
+            "3"
+          ],
+          "campaignType": "project",
+          "constructionPhase": "completed",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Landmark+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fmemaar-el-morshedy%2Fdegla-landmark%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2023-01-01T04:31:23.102Z",
+          "developer": {
+            "id": "de86bfb0-4450-4f88-9c57-6118d81ba214",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/de86bfb0-4450-4f88-9c57-6118d81ba214/logo/image/0qhQ1upsP5ZMvKE7SAGDydeF2WoIy-ZtcG6DueZA6sc=/original.png",
+            "name": "Morshedy Group"
+          },
+          "downPaymentPercentage": 5,
+          "hotnessLevel": 84,
+          "id": "429c0c95-9590-469e-b8f4-72e58816c5ac",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/429c0c95-9590-469e-b8f4-72e58816c5ac/gallery/image/LpRFMYmYh8xwx1dogHWVAtPBJK8oQ_x-NbKFvxumBTQ=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/429c0c95-9590-469e-b8f4-72e58816c5ac/gallery/image/iA_cSJxzXNxVkPd9b3w34qyxSwaWibRly1gNdAZWpoU=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/429c0c95-9590-469e-b8f4-72e58816c5ac/gallery/image/k3jVHtO0-b4D9RT40bRZ1FkBZiRABFYyIGg5Z7QGqbY=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/429c0c95-9590-469e-b8f4-72e58816c5ac/gallery/image/cuowlSEF-oiGM0fYJNmMbTDweJ8t_Gneo01sUkSFmOs=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/429c0c95-9590-469e-b8f4-72e58816c5ac/gallery/image/MT9Fko-eSzuT4zPP5VmVXa7d_zCgzghMFdvS7soa_G4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/429c0c95-9590-469e-b8f4-72e58816c5ac/gallery/image/ff4oT6gR133pBqFjFLQZKoIKM9wrKpxuOoIa0ybfRdg=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.032835,
+              "lon": 31.364871,
+              "lng": 31.364871
+            },
+            "fullName": "Cairo,Nasr City,Nasr City Compounds,Landmark",
+            "id": 40810
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "5"
+          ],
+          "priceRange": {
+            "max": 5057000,
+            "min": 5057000
+          },
+          "propertyTypes": [
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/memaar-el-morshedy/degla-landmark",
+          "startingPrice": 3114000,
+          "stockAvailability": "available",
+          "title": "Landmark",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "8eafd980-4eed-4f22-bbf0-9c1b40f30e6e",
+              "name": "Health Club"
+            },
+            {
+              "id": "747ecb67-1b7b-4a40-8738-fddc11c11435",
+              "name": "Garage"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "fc7baf9e-89d9-42ad-9396-04594c6e600e",
+              "name": "Mosque"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "ee24fc85-a693-46f4-8d7b-ad4885d1a35e",
+              "name": "Infinity Pool"
+            }
+          ],
+          "bedrooms": [
+            "2",
+            "3",
+            "4"
+          ],
+          "campaignType": "project",
+          "constructionPhase": "completed",
+          "constructionProgress": null,
+          "contactOptions": [
+            {
+              "link": "https://wa.me/20221257340?text=Hello%2C+I+am+interested+in+learning+more+about+Sarai+which+I+found+on+Property+Finder.+Project+link%3A+https%3A%2F%2Fwww.propertyfinder.eg%2Fen%2Fnew-projects%2Fmadinet-masr%2Fsarai%0A",
+              "type": "whatsapp"
+            }
+          ],
+          "deliveryDate": "2026-03-31T12:30:08.216Z",
+          "developer": {
+            "id": "d3afe72f-2510-42b1-97b8-34636918ebdd",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/d3afe72f-2510-42b1-97b8-34636918ebdd/logo/image/-9ewziLE_hKlLoeIzC-Z5ftcs7zHhI2l0dYOUNibGWQ=/original.webp",
+            "name": "Madinet Masr"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 75,
+          "id": "7f84ab0a-97b0-4e6c-9d78-4645c1f5a243",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/7f84ab0a-97b0-4e6c-9d78-4645c1f5a243/gallery/image/HUGItMHOq6tkPnE0oIF-xE7rLGogAPqJYUiUNtwNtQ0=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/7f84ab0a-97b0-4e6c-9d78-4645c1f5a243/gallery/image/9QhIXWg2UMo9mlzYqtxzI4HCuCTHlviM_-DadbTeQUM=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/7f84ab0a-97b0-4e6c-9d78-4645c1f5a243/gallery/image/qJmts7-Y4ek9ilxmggEYW-Bemj1OWobDHcA4Nk445q8=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.094178,
+              "lon": 31.704001,
+              "lng": 31.704001
+            },
+            "fullName": "Cairo,Mostakbal City - Future City,Mostakbal City Compounds,Sarai",
+            "id": 20207
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10"
+          ],
+          "priceRange": {
+            "max": 1798972,
+            "min": 1798972
+          },
+          "propertyTypes": [
+            "villa",
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/madinet-masr/sarai",
+          "startingPrice": 1798972,
+          "stockAvailability": "available",
+          "title": "Sarai",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2028-12-31T10:58:35.898Z",
+          "developer": {
+            "id": "e4499fe5-bc29-420d-a0b5-f2f42a4a0058",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/e4499fe5-bc29-420d-a0b5-f2f42a4a0058/logo/image/ODYletRSBqtPc4Ull49TIVZcjHEIvcBCZ8SRtjgixYM=/original.jpg",
+            "name": "Kayan Real Estate"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "65e439c0-951e-4208-9190-a0af7bbb3d52",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/65e439c0-951e-4208-9190-a0af7bbb3d52/gallery/image/jH6vxtKUcKjnTf6m9QjCmny1mwZLBxbM2z0XqxUl6lo=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/65e439c0-951e-4208-9190-a0af7bbb3d52/gallery/image/vl9Aiyle3VZ_cA95xpI-4rAy4VeRRJl2uwR-WBY9v4M=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/65e439c0-951e-4208-9190-a0af7bbb3d52/gallery/image/QN9Dd2-vSto8Ej8BcXKWTO2KQviTciY_86m8w6t4Ujo=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 0,
+              "lon": 0,
+              "lng": 0
+            },
+            "fullName": "Qalyubia,New Obour City",
+            "id": 39740
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/kayan-real-estate/waad",
+          "startingPrice": 0,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Waad",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2027-12-31T10:45:17.506Z",
+          "developer": {
+            "id": "2ef13fe7-5814-40de-b469-e202bb42ff38",
+            "logoUrl": "",
+            "name": "Circle Communities"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "65f646b3-0a00-4e1e-aa0c-3a56291718cb",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/65f646b3-0a00-4e1e-aa0c-3a56291718cb/gallery/image/B9xCYajB9d2IvHDJMxpLzNGUMrpF-bpMndZRJVKgQhs=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/65f646b3-0a00-4e1e-aa0c-3a56291718cb/gallery/image/43PKOONsmmPyo65adrrHb8NPqkl1XEduyPcOIqvhNUE=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/65f646b3-0a00-4e1e-aa0c-3a56291718cb/gallery/image/yENRDqU_9vcasY6nfpu08_xt14MgretTQ814EtLVFRE=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/65f646b3-0a00-4e1e-aa0c-3a56291718cb/gallery/image/nYHR0FyMBBv5zCDY-GX9zx7vS4eIBHdrcrqazLz65CA=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/65f646b3-0a00-4e1e-aa0c-3a56291718cb/gallery/image/xKBUfkUrRUMZFIR4BwIXyfnrksik4k57oAI44pEMx-0=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.04056643,
+              "lon": 30.99054337,
+              "lng": 30.99054337
+            },
+            "fullName": "Giza,Sheikh Zayed City",
+            "id": 28683
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/circle-communities/lumin-heights",
+          "startingPrice": 0,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Lumin Heights",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "d724d2fb-f269-4ce5-a695-608819a9c451",
+              "name": "Medical Facilites"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "e527f8c4-ac7d-45f1-bbdd-1aba7f0e986a",
+              "name": "Business centre"
+            },
+            {
+              "id": "7a12b3f8-e642-48e8-8c6c-6b59443bf25f",
+              "name": "Retail Facilities"
+            },
+            {
+              "id": "ee24fc85-a693-46f4-8d7b-ad4885d1a35e",
+              "name": "Infinity Pool"
+            }
+          ],
+          "bedrooms": [
+            "1",
+            "2",
+            "3"
+          ],
+          "campaignType": null,
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": null,
+          "developer": {
+            "id": "ac7d53d5-6ded-44db-87b7-8ace8c2eca76",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/ac7d53d5-6ded-44db-87b7-8ace8c2eca76/logo/image/zrY9G3rIdRuTTJ4py6Z3mam9vslGhsuvwcdBK_jqT8A=/original.webp",
+            "name": "Akam Developments"
+          },
+          "downPaymentPercentage": 4,
+          "hotnessLevel": 100,
+          "id": "0fd5e5b5-a672-4502-b5f1-53e5a38ef158",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/0fd5e5b5-a672-4502-b5f1-53e5a38ef158/gallery/image/kBASx91-NXcFyEDOBqXMQbNDil8wUQXnX9eDVaG5tBk=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0fd5e5b5-a672-4502-b5f1-53e5a38ef158/gallery/image/YT4qUEVuhXIHVKtoD6FcUdGGyvSSjDo4CDtuzipothU=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0fd5e5b5-a672-4502-b5f1-53e5a38ef158/gallery/image/jEo5rlyyL815Q2aQT1d-30MY7jWPRkjfu1wC4emiM5s=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/0fd5e5b5-a672-4502-b5f1-53e5a38ef158/gallery/image/HGR-ZXF8TTi2o-Fescx4zqBwyd3TFLjBcp9HH_3k-cE=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.0647228,
+              "lon": 28.32826547116,
+              "lng": 28.32826547116
+            },
+            "fullName": "North Coast,Qesm Ad Dabaah,Dose",
+            "id": 41916
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10",
+            "4"
+          ],
+          "priceRange": {
+            "max": 33775024,
+            "min": 10824000
+          },
+          "propertyTypes": [
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/akam-developments/jay-dose",
+          "startingPrice": 10824000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Jay Dose",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "1e9d2679-ddf9-4aa3-9034-934ee66060b3",
+              "name": "Landscaped Parks"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "9b8fd993-144d-433a-aeb5-62dd9eed39cd",
+              "name": "Indoor Swimming Pool"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2030-12-31T16:18:02.146Z",
+          "developer": {
+            "id": "4ea0656f-b78c-4fca-b993-0e2f13a234ca",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/4ea0656f-b78c-4fca-b993-0e2f13a234ca/logo/image/Y9_xIIDS3C51GGE-SpCauX0_ytJ0I53SSU6lv1UEt4o=/original.png",
+            "name": "Al Ahly Sabbour Developments"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "1e4713e2-5f15-4e82-84c3-c19b258f5c46",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/1e4713e2-5f15-4e82-84c3-c19b258f5c46/gallery/image/3mRg6S4NTGRz-pBS6HyMbYYHOMFTRWEdNbTmTrii6po=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/1e4713e2-5f15-4e82-84c3-c19b258f5c46/gallery/image/6XCdxpjy6neQFnNBtClK7gpGmzdSbIkNDTZqicGnfKE=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/1e4713e2-5f15-4e82-84c3-c19b258f5c46/gallery/image/elKW0YvnBjwH11_aHMT2N52sOSRFVC2Q6bGVT2O8Hs0=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.090139,
+              "lon": 28.15801,
+              "lng": 28.15801
+            },
+            "fullName": "North Coast,Ras Al Hekma,Youd",
+            "id": 42193
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/al-ahly-sabbour-developments/youd-el-bahr",
+          "startingPrice": 11600000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Youd El Bahr",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "d724d2fb-f269-4ce5-a695-608819a9c451",
+              "name": "Medical Facilites"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "f5f9faba-b821-4a0b-bae0-a8149da7fb08",
+              "name": "Lakes"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "9f720f98-0428-4e46-8075-36bac4fff643",
+              "name": "Beach Club"
+            },
+            {
+              "id": "d5b70f57-60e2-4457-9901-1fa330666eaf",
+              "name": "Yoga room"
+            },
+            {
+              "id": "14816288-6a00-40dc-b809-d31bc9aed934",
+              "name": "On-Site Maintenance"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "5c6a5637-5b4f-4edc-9f47-d753dea41898",
+              "name": "Well-being and Fitness"
+            }
+          ],
+          "bedrooms": [
+            "3"
+          ],
+          "campaignType": null,
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": null,
+          "developer": {
+            "id": "ac7d53d5-6ded-44db-87b7-8ace8c2eca76",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/ac7d53d5-6ded-44db-87b7-8ace8c2eca76/logo/image/zrY9G3rIdRuTTJ4py6Z3mam9vslGhsuvwcdBK_jqT8A=/original.webp",
+            "name": "Akam Developments"
+          },
+          "downPaymentPercentage": 4,
+          "hotnessLevel": 100,
+          "id": "2568308f-dd3a-451b-8009-876fd5dce32b",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/2568308f-dd3a-451b-8009-876fd5dce32b/gallery/image/SJ0qBu63cYkEaI3ePJrETwNAWsaSLud2YIBMDQQ-9xU=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/2568308f-dd3a-451b-8009-876fd5dce32b/gallery/image/jOyhtiVwjXMYw80pQrqr9KCBxtf8m0Ti-9boNOh4jEU=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.0647228,
+              "lon": 28.32826547116,
+              "lng": 28.32826547116
+            },
+            "fullName": "North Coast,Qesm Ad Dabaah,Dose",
+            "id": 41916
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10",
+            "4"
+          ],
+          "priceRange": {
+            "max": 29410000,
+            "min": 21420000
+          },
+          "propertyTypes": [
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/akam-developments/epic-dose",
+          "startingPrice": 21420000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Epic Chalet Dose",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "2450b16b-ebba-46f5-bc21-4040c5632f0c",
+              "name": "Padel Court"
+            },
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "1fa53447-208f-4e2b-9064-ecabdd663b16",
+              "name": "Golf Course"
+            },
+            {
+              "id": "ed8d5db0-7237-44ba-b699-694ba6c24e28",
+              "name": "Golf Club and Clubhouse"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "1149deb3-be26-4eea-abb5-f53ea8b1104b",
+              "name": "Tennis Courts"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "aa3a7aae-be8b-4e9a-a6b8-b67afd41924e",
+              "name": "International School"
+            },
+            {
+              "id": "5c6a5637-5b4f-4edc-9f47-d753dea41898",
+              "name": "Well-being and Fitness"
+            }
+          ],
+          "bedrooms": [
+            "4",
+            "5",
+            "6"
+          ],
+          "campaignType": null,
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": null,
+          "developer": {
+            "id": "a105076f-9742-4562-8be1-c4d33653c5a8",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/a105076f-9742-4562-8be1-c4d33653c5a8/logo/image/xTykPPVnJ0HWuj9z56mbC7gRE-CuJ72Ykcnh_imPyw0=/original.webp",
+            "name": "Emaar Misr"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/_sp2OOwoLgy5Use1pPG3nHDx7N-_9Ad-J9aaMPERJ14=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/4gr77VWt6vNQ5_GoSEnoY3oy1nZbtL7Joq6L76frxOs=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/YpgNJA86X43ISYWzIaCUqBot95Zj_ts780qWQsi40p4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/E1MOTxRfFjNjWGv7vtocVbh-EryCN_m1erteuJADNwQ=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/TFI74KGUEgQ5E5BgQZ68ekfKaAJl4YqX2z1q7A1gb90=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/aRVV74FAf5Jg6KO8WJVTjmvF6y3402p7rJj90chxk94=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b0cc0fa9-bd24-42d0-83f5-cbf1ea9c32bc/gallery/image/Kh5D-jPQ-LG8-KsgJbNn2tcrhSy5sdzUp8iMLKVSpWQ=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.024122,
+              "lon": 31.300007,
+              "lng": 31.300007
+            },
+            "fullName": "Cairo,Mokattam,Uptown Cairo",
+            "id": 9792
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [
+            "villa"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/emaar-misr/golf-mansions",
+          "startingPrice": 0,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Golf Mansions",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "9f720f98-0428-4e46-8075-36bac4fff643",
+              "name": "Beach Club"
+            },
+            {
+              "id": "89cf0232-752e-470f-8770-d52fd419bd56",
+              "name": "Beach Access"
+            },
+            {
+              "id": "1e9d2679-ddf9-4aa3-9034-934ee66060b3",
+              "name": "Landscaped Parks"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [
+            "1",
+            "2"
+          ],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2030-12-31T10:39:30.782Z",
+          "developer": {
+            "id": "ac7d53d5-6ded-44db-87b7-8ace8c2eca76",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/ac7d53d5-6ded-44db-87b7-8ace8c2eca76/logo/image/zrY9G3rIdRuTTJ4py6Z3mam9vslGhsuvwcdBK_jqT8A=/original.webp",
+            "name": "Akam Developments"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "a11ab67b-f0ff-445c-940f-be5463ac0a6b",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/a11ab67b-f0ff-445c-940f-be5463ac0a6b/gallery/image/bQM8425Tz4VLUfkS-4QF-Qrh-F3Vy3SegYS0y7EWGvY=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.0647228,
+              "lon": 28.32826547116,
+              "lng": 28.32826547116
+            },
+            "fullName": "North Coast,Qesm Ad Dabaah,Dose",
+            "id": 41916
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": {
+            "max": 7530000,
+            "min": 5630000
+          },
+          "propertyTypes": [
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/akam-developments/ray-chalets-dose",
+          "startingPrice": 5630000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Ray Chalets - DOSE",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "f06afd67-8785-4ac4-b61a-a89c27131e4b",
+              "name": "Parking"
+            },
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "f5f9faba-b821-4a0b-bae0-a8149da7fb08",
+              "name": "Lakes"
+            },
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "57182006-e477-43b0-b515-8be769e93c9a",
+              "name": "Gymnasium"
+            },
+            {
+              "id": "6ba81368-4868-4e7d-b4dd-9482dc22dbbf",
+              "name": "Entertainment Facilities"
+            },
+            {
+              "id": "0661e584-e5b6-4bec-8f95-71fb0709df39",
+              "name": "Cycle track"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "89cf0232-752e-470f-8770-d52fd419bd56",
+              "name": "Beach Access"
+            },
+            {
+              "id": "40039522-2014-4817-b7d2-970c3b2a9d45",
+              "name": "Running Track"
+            },
+            {
+              "id": "7a12b3f8-e642-48e8-8c6c-6b59443bf25f",
+              "name": "Retail Facilities"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2028-12-31T10:04:40.791Z",
+          "developer": {
+            "id": "651b0d85-3d48-43ba-9a46-82e2e4bf623a",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/651b0d85-3d48-43ba-9a46-82e2e4bf623a/logo/image/wkGWVkiXqbkEtsCThcUbGoTQ0N0MiN19FH3pcHJ45IY=/original.png",
+            "name": "Arabella"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 100,
+          "id": "b562a266-c61c-4105-af5f-1f83aae11092",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/d2yVBPe4--P8cn2sjL28HDBrpURzk3h0HyNreVxNkak=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/JHGcovLhg1H8owMJJ7aBHWvXEJUHRg_q3sDzFVLLKW4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/zbNjnUlbNqs_PERVnj4T7mRMpe-X8gT_a_igkwD8yi4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/N6ODO0FgV8x9MTvMnfOKaov2g8t02J_E3xiN8BhTxmY=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/MRUUkoVPlnGzW43EKLYEh1OmyUDgcng7EXEkIbUl5_c=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/OCmkCQ3p388hYAi8LZ4ja8tZgGAjN3bpbhIjfDCy2v0=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/jv1gJokKPuWnFA9sFY0x_WMDl_q4acsJthr0LeJHeuQ=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/iuxRtOcKdP2_ezGWTNGYRU5C5OInsEWHwDNH5b-4Oeg=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/b562a266-c61c-4105-af5f-1f83aae11092/gallery/image/v4093XDLx_A5XLxiTJ69wkI7BR6y4X_JK3tp5V4Uvuk=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.067209,
+              "lon": 28.08973,
+              "lng": 28.08973
+            },
+            "fullName": "North Coast,Ras Al Hekma,Direction White",
+            "id": 41319
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10"
+          ],
+          "priceRange": {
+            "max": 25000000,
+            "min": 8800000
+          },
+          "propertyTypes": [
+            "apartment",
+            "townhouse"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/arabella/water-creek-direction-white",
+          "startingPrice": 8800000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Water Creek Direction White",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "1e9d2679-ddf9-4aa3-9034-934ee66060b3",
+              "name": "Landscaped Parks"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2026-12-31T08:06:10.456Z",
+          "developer": {
+            "id": "2ef13fe7-5814-40de-b469-e202bb42ff38",
+            "logoUrl": "",
+            "name": "Circle Communities"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "45072ef6-86b9-4b96-87a8-65ec914c8bf3",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/45072ef6-86b9-4b96-87a8-65ec914c8bf3/gallery/image/_AUoTZ1Z3SMiAxBpy3zNNkWlo3tnWjR58juWCQ9Q018=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/45072ef6-86b9-4b96-87a8-65ec914c8bf3/gallery/image/YNGkF6XBtpgQvrIzTEEwz305W1EJ21Y9EdJbyCt1D9w=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/45072ef6-86b9-4b96-87a8-65ec914c8bf3/gallery/image/oyLv7FsGkxGl6PEcwhjSCorPeIArlZcBb0BpxdKXisA=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/45072ef6-86b9-4b96-87a8-65ec914c8bf3/gallery/image/3JgVSqyDWGhVtmf87a5oopx8ionqWidm7xAz38KxBMo=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.04056643,
+              "lon": 30.99054337,
+              "lng": 30.99054337
+            },
+            "fullName": "Giza,Sheikh Zayed City",
+            "id": 28683
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/circle-communities/rova",
+          "startingPrice": 0,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Rova",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "f5f9faba-b821-4a0b-bae0-a8149da7fb08",
+              "name": "Lakes"
+            },
+            {
+              "id": "8858acbe-b412-4908-a26d-9da7731d0e94",
+              "name": "Barbecue area"
+            },
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "57182006-e477-43b0-b515-8be769e93c9a",
+              "name": "Gymnasium"
+            },
+            {
+              "id": "cd9ce638-861b-4b9f-877d-11a7bc7d8055",
+              "name": "Gated Community"
+            },
+            {
+              "id": "0661e584-e5b6-4bec-8f95-71fb0709df39",
+              "name": "Cycle track"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "a0716caf-70b9-45fa-93d2-b4ba2be46e39",
+              "name": "Walkways"
+            },
+            {
+              "id": "40039522-2014-4817-b7d2-970c3b2a9d45",
+              "name": "Running Track"
+            },
+            {
+              "id": "fc7baf9e-89d9-42ad-9396-04594c6e600e",
+              "name": "Mosque"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2027-12-31T07:58:24.779Z",
+          "developer": {
+            "id": "463ab066-2ac9-4dbe-b2e7-400cbc35806c",
+            "logoUrl": "",
+            "name": "Kafafy Developments"
+          },
+          "downPaymentPercentage": 0,
+          "hotnessLevel": 100,
+          "id": "8f5c266f-21fb-42a8-afb9-2a4d0fbc202c",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/8f5c266f-21fb-42a8-afb9-2a4d0fbc202c/gallery/image/DsevWb8E_yZb1VfHL50SDgPZOxZ_jDAkRc4NX1Mmmfo=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/8f5c266f-21fb-42a8-afb9-2a4d0fbc202c/gallery/image/fnFH0yVBO00mgyYZ6DnoDDNv-1jmHk-mAKRRkNK8Zlc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/8f5c266f-21fb-42a8-afb9-2a4d0fbc202c/gallery/image/FM6BjNXDXaB4VPThQQSbGcB7KgOlB8OTFbqCCjffsxk=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.04056643,
+              "lon": 30.99054337,
+              "lng": 30.99054337
+            },
+            "fullName": "Giza,Sheikh Zayed City",
+            "id": 28683
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "",
+            "5",
+            "10",
+            "15"
+          ],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/kafafy-developments/pura-residence",
+          "startingPrice": 9375000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Pura Residence",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "77d68a39-2151-45cc-8550-31daa004f3f3",
+              "name": "Sea View"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "89cf0232-752e-470f-8770-d52fd419bd56",
+              "name": "Beach Access"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [
+            "3"
+          ],
+          "campaignType": null,
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": null,
+          "developer": {
+            "id": "8b8dbf5d-bda1-4e0b-9f68-b9b30b07a7ef",
+            "logoUrl": "",
+            "name": "Beit Al Bahr Developments"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "bb108535-a0e1-4ba2-8966-15f6cc39ca8e",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/bb108535-a0e1-4ba2-8966-15f6cc39ca8e/gallery/image/MbHm2Y3eH1zTgDX2VbSIVo53qHtGhfk98lbAeyABZ-o=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/bb108535-a0e1-4ba2-8966-15f6cc39ca8e/gallery/image/-lmcWoieFHHZhMPIG46X5sG6NjesNy-EOGuvy-GxYpo=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/bb108535-a0e1-4ba2-8966-15f6cc39ca8e/gallery/image/DMNDSGycPwUQyOWYSCIQU9ybZ5h40blRohWHFeKvBbA=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 31.178956,
+              "lon": 27.631799,
+              "lng": 27.631799
+            },
+            "fullName": "North Coast,Sidi Heneish,Beit Al Bahr",
+            "id": 41894
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [
+            "apartment"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/beit-al-bahr-developments/east-bay-beit-al-bahr",
+          "startingPrice": 0,
+          "stockAvailability": "might_be_sold_out",
+          "title": "East Bay Beit Al Bahr",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "d5b70f57-60e2-4457-9901-1fa330666eaf",
+              "name": "Yoga room"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": null,
+          "developer": {
+            "id": "56a41081-2a5f-45b1-8204-ce951ffd4ce0",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/56a41081-2a5f-45b1-8204-ce951ffd4ce0/logo/image/1780SETxzEJPBVr3oH8_u4viHaIWK3oz2EJjdlZyQWw=/original.png",
+            "name": "Rock developments"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "be8e946d-32ad-4895-9de5-889df5f98fef",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/be8e946d-32ad-4895-9de5-889df5f98fef/gallery/image/ViH7jTuQiziAfb_zIbjz2X_RWCRE31je-Xk9ZqQa_zc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/be8e946d-32ad-4895-9de5-889df5f98fef/gallery/image/Z-6xsWtyAa7VKyurB91g3CDFa2mX2LOYfmrTxiYQKKc=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/be8e946d-32ad-4895-9de5-889df5f98fef/gallery/image/dcWy-N5ifNIZX4IXnThIOzXxdkh7nFE7vxYmH8qq2Ns=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.225421,
+              "lon": 31.477629,
+              "lng": 31.477629
+            },
+            "fullName": "Qalyubia,Obour City,5th District",
+            "id": 39542
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/rock-developments/rock-ville",
+          "startingPrice": 0,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Rock Ville",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "2450b16b-ebba-46f5-bc21-4040c5632f0c",
+              "name": "Padel Court"
+            },
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "f5f9faba-b821-4a0b-bae0-a8149da7fb08",
+              "name": "Lakes"
+            },
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "0661e584-e5b6-4bec-8f95-71fb0709df39",
+              "name": "Cycle track"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "a0716caf-70b9-45fa-93d2-b4ba2be46e39",
+              "name": "Walkways"
+            },
+            {
+              "id": "1149deb3-be26-4eea-abb5-f53ea8b1104b",
+              "name": "Tennis Courts"
+            },
+            {
+              "id": "40039522-2014-4817-b7d2-970c3b2a9d45",
+              "name": "Running Track"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "5c6a5637-5b4f-4edc-9f47-d753dea41898",
+              "name": "Well-being and Fitness"
+            }
+          ],
+          "bedrooms": [
+            "3",
+            "4"
+          ],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2030-06-30T10:05:53.179Z",
+          "developer": {
+            "id": "03dbb99a-4102-4ea3-b74f-106db97d2849",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/03dbb99a-4102-4ea3-b74f-106db97d2849/logo/image/-J-2w03ua-Mob79__YDeh9xbloT-_G_I2J89x_UOYuE=/original.webp",
+            "name": "Palm Hills"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "379e9c2a-0c5b-4499-ac43-870cafe62fe3",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/379e9c2a-0c5b-4499-ac43-870cafe62fe3/gallery/image/ENd4eC_9-7eOCAtS7ubQUd9FXTdkWiQjgMPXuuCjJhY=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/379e9c2a-0c5b-4499-ac43-870cafe62fe3/gallery/image/IYjq8OwKD4gOLTLTvVVVgDUgRqsYgKaTg-BBcOCzok4=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/379e9c2a-0c5b-4499-ac43-870cafe62fe3/gallery/image/fyW_PFNxLRydJmiPL76Yhuwn6ivEhL-8y7zlg-VZJO8=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/379e9c2a-0c5b-4499-ac43-870cafe62fe3/gallery/image/BYQKWmK2VOeWBquZbv10WxiqVafMgAIVZEQozh9cFzM=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 29.95790912,
+              "lon": 30.91575801,
+              "lng": 30.91575801
+            },
+            "fullName": "Giza,6 October City",
+            "id": 20671
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": {
+            "max": 34901000,
+            "min": 30483000
+          },
+          "propertyTypes": [
+            "apartment",
+            "townhouse"
+          ],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/palm-hills/the-crown-extension",
+          "startingPrice": 28053000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "The Crown Extension",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "b4a45482-e083-4ba6-8cfd-07bd8c89da4c",
+              "name": "Clubhouse"
+            },
+            {
+              "id": "d724d2fb-f269-4ce5-a695-608819a9c451",
+              "name": "Medical Facilites"
+            },
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "27da38f6-d8eb-4561-91f7-868a38c7e85e",
+              "name": "Sports facilities"
+            },
+            {
+              "id": "fca55018-33f9-4493-a88c-eff88a17436d",
+              "name": "Kids Area"
+            },
+            {
+              "id": "8eafd980-4eed-4f22-bbf0-9c1b40f30e6e",
+              "name": "Health Club"
+            },
+            {
+              "id": "a0716caf-70b9-45fa-93d2-b4ba2be46e39",
+              "name": "Walkways"
+            },
+            {
+              "id": "7a12b3f8-e642-48e8-8c6c-6b59443bf25f",
+              "name": "Retail Facilities"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "not_started",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": null,
+          "developer": {
+            "id": "58e07f09-2eb3-4395-b8fe-031fc1b4ee02",
+            "logoUrl": "",
+            "name": "Mavi Developments"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 100,
+          "id": "5fbd1622-fb02-4305-b3e3-8f524c3db156",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/5fbd1622-fb02-4305-b3e3-8f524c3db156/gallery/image/JNXQq3TzRp4rZu3ozTfmAXO66aO8kDIeIdnlJsZzcPI=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/5fbd1622-fb02-4305-b3e3-8f524c3db156/gallery/image/op7bKCPUcBZBhilHRvKXxZRb-nOXLFrqKjymrWu9b4w=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 0,
+              "lon": 0,
+              "lng": 0
+            },
+            "fullName": "North Coast,Al Alamein,New Alamein City",
+            "id": 40767
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10",
+            "15",
+            "20"
+          ],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/mavi-developments/mavi-village",
+          "startingPrice": 1250000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Mavi Village",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "fa405b95-6933-45e9-828e-abbe4f1a120f",
+              "name": "Security"
+            },
+            {
+              "id": "dab92e88-b27c-4a6f-b4fd-b9b8fbb8e916",
+              "name": "Swimming Pool"
+            },
+            {
+              "id": "1447370b-1906-40b4-9684-528c1c7d4c99",
+              "name": "Shopping area"
+            },
+            {
+              "id": "6ecd15ab-93b8-482b-9dad-902f5b57fbd4",
+              "name": "Hotel and Spa Facilities"
+            },
+            {
+              "id": "57182006-e477-43b0-b515-8be769e93c9a",
+              "name": "Gymnasium"
+            },
+            {
+              "id": "6ba81368-4868-4e7d-b4dd-9482dc22dbbf",
+              "name": "Entertainment Facilities"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "b3c59407-6475-4282-8daf-1858564358d7",
+              "name": "Cafe and Restaurants"
+            },
+            {
+              "id": "fb4f064d-4c9d-4240-8ea7-6823661c4872",
+              "name": "Valet Parking"
+            },
+            {
+              "id": "14816288-6a00-40dc-b809-d31bc9aed934",
+              "name": "On-Site Maintenance"
+            },
+            {
+              "id": "6de4f43c-7b26-4414-8bc2-8e7308338783",
+              "name": "Meeting rooms"
+            },
+            {
+              "id": "37a20f54-7040-440d-9ff7-28e4d5b2be86",
+              "name": "Laundry and Dry Cleaning Services"
+            },
+            {
+              "id": "ad4c7ef3-ba7b-47f6-82b4-f2d6efe4fa11",
+              "name": "Landscaped Gardens"
+            },
+            {
+              "id": "5c6a5637-5b4f-4edc-9f47-d753dea41898",
+              "name": "Well-being and Fitness"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2029-12-31T11:28:26.969Z",
+          "developer": {
+            "id": "03dbb99a-4102-4ea3-b74f-106db97d2849",
+            "logoUrl": "https://new-projects-media.propertyfinder.com/developer/03dbb99a-4102-4ea3-b74f-106db97d2849/logo/image/-J-2w03ua-Mob79__YDeh9xbloT-_G_I2J89x_UOYuE=/original.webp",
+            "name": "Palm Hills"
+          },
+          "downPaymentPercentage": null,
+          "hotnessLevel": 100,
+          "id": "1160bef2-47e6-42bc-8744-a9fd3bae42fd",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/1160bef2-47e6-42bc-8744-a9fd3bae42fd/gallery/image/rowCgye_d-YL1lfrSah6FIUc7-Lq6HU7paYBfDsVgeo=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/1160bef2-47e6-42bc-8744-a9fd3bae42fd/gallery/image/IdueE9UWg6Ha30P3QbwnF2IfxcAdHUJTnZENifO5A0k=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/1160bef2-47e6-42bc-8744-a9fd3bae42fd/gallery/image/jqA9eHM2aawvDw8wLcBk5ntIzaGluQelbqyE7Ma0_O0=/medium.webp",
+            "https://new-projects-media.propertyfinder.com/project/1160bef2-47e6-42bc-8744-a9fd3bae42fd/gallery/image/kWrPnMgHO8ClOrtMRl00vbmD9I20m6vS5n-dEfdBAEM=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 29.95790912,
+              "lon": 30.91575801,
+              "lng": 30.91575801
+            },
+            "fullName": "Giza,6 October City",
+            "id": 20671
+          },
+          "minResalePrice": null,
+          "paymentPlans": [],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/palm-hills/the-ritz-carlton-residences",
+          "startingPrice": 132463000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "The Ritz Carlton Residences",
+          "weightRanking": 100
+        },
+        {
+          "amenities": [
+            {
+              "id": "0661e584-e5b6-4bec-8f95-71fb0709df39",
+              "name": "Cycle track"
+            },
+            {
+              "id": "b370035c-e8c6-4a42-8cc6-508c9d8e6bd2",
+              "name": "CCTV Security"
+            },
+            {
+              "id": "d8109b9f-32c1-4350-891b-3c554d32f4c4",
+              "name": "Pharmacy"
+            },
+            {
+              "id": "9b8fd993-144d-433a-aeb5-62dd9eed39cd",
+              "name": "Indoor Swimming Pool"
+            }
+          ],
+          "bedrooms": [],
+          "campaignType": null,
+          "constructionPhase": "under_construction",
+          "constructionProgress": null,
+          "contactOptions": [],
+          "deliveryDate": "2028-12-31T13:21:15.117Z",
+          "developer": {
+            "id": "7d5f685a-5a5d-4589-b252-dce076327c0e",
+            "logoUrl": "",
+            "name": "Murtaqa Developments"
+          },
+          "downPaymentPercentage": 10,
+          "hotnessLevel": 100,
+          "id": "0465ba0f-80ee-4e44-99e8-d3a67c47be46",
+          "images": [
+            "https://new-projects-media.propertyfinder.com/project/0465ba0f-80ee-4e44-99e8-d3a67c47be46/gallery/image/iugC5wAgSmafwIyOn71tTAuSkmZVoqzf4dVe7OFr-I8=/medium.webp"
+          ],
+          "leadCta": null,
+          "location": {
+            "coordinates": {
+              "lat": 30.1187,
+              "lon": 31.299866,
+              "lng": 31.299866
+            },
+            "fullName": "Cairo,El Matareya,Al Izab,Al Obour",
+            "id": 16901
+          },
+          "minResalePrice": null,
+          "paymentPlans": [
+            "10"
+          ],
+          "priceRange": null,
+          "propertyTypes": [],
+          "salesPhase": null,
+          "salesStartDate": null,
+          "shareUrl": "/en/new-projects/murtaqa-developments/murtaqa",
+          "startingPrice": 18000000,
+          "stockAvailability": "might_be_sold_out",
+          "title": "Murtaqa",
+          "weightRanking": 100
+        }
+      ],
+      "recommended": null
+    },
+    "meta": {
+      "count": {
+        "developer": 1236,
+        "resale": 0,
+        "total": 1236
+      },
+      "pagination": {
+        "page": 1,
+        "total": 52
+      }
+    }
+  },
+  "seoData": {
+    "aggregationLinks": {
+      "links": [],
+      "title": "Aggregation Links"
+    },
+    "availableBedrooms": {
+      "links": [],
+      "title": "Available Bedrooms"
+    },
+    "exploreOtherPropertyTypes": {
+      "links": [],
+      "title": "Explore Other Property Types"
+    },
+    "nearbyProjects": {
+      "links": [],
+      "title": "Nearby Projects"
+    },
+    "otherDevelopers": {
+      "links": [],
+      "title": "Other Developers"
+    },
+    "developerSerpPages": {
+      "title": "developerSerpPages",
+      "links": [
+        {
+          "title": "Off-Plan & New Projects by Palm Hills",
+          "path": "/en/new-projects/dev/palm-hills"
+        },
+        {
+          "title": "Off-Plan & New Projects by Emaar Misr",
+          "path": "/en/new-projects/dev/emaar-misr"
+        },
+        {
+          "title": "Off-Plan & New Projects by Mountain View",
+          "path": "/en/new-projects/dev/mountain-view"
+        },
+        {
+          "title": "Off-Plan & New Projects by La Vista Developments",
+          "path": "/en/new-projects/dev/la-vista-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by City Edge",
+          "path": "/en/new-projects/dev/city-edge"
+        },
+        {
+          "title": "Off-Plan & New Projects by Orascom Development",
+          "path": "/en/new-projects/dev/orascom-development"
+        },
+        {
+          "title": "Off-Plan & New Projects by Sodic",
+          "path": "/en/new-projects/dev/sodic"
+        },
+        {
+          "title": "Off-Plan & New Projects by Ora Developers",
+          "path": "/en/new-projects/dev/ora-developers"
+        },
+        {
+          "title": "Off-Plan & New Projects by Al Ahly Sabbour Developments",
+          "path": "/en/new-projects/dev/al-ahly-sabbour-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by Hassan Allam Holding",
+          "path": "/en/new-projects/dev/hassan-allam-holding"
+        },
+        {
+          "title": "Off-Plan & New Projects by INERTIA",
+          "path": "/en/new-projects/dev/inertia"
+        },
+        {
+          "title": "Off-Plan & New Projects by Madinet Masr",
+          "path": "/en/new-projects/dev/madinet-masr"
+        },
+        {
+          "title": "Off-Plan & New Projects by Soma Bay Real Estate",
+          "path": "/en/new-projects/dev/soma-bay-real-estate"
+        },
+        {
+          "title": "Off-Plan & New Projects by Roya For Real Estate  Company",
+          "path": "/en/new-projects/dev/roya-for-real-estate-company"
+        },
+        {
+          "title": "Off-Plan & New Projects by Hyde Park Developments",
+          "path": "/en/new-projects/dev/hyde-park-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by Housing and Development Company for Real Estate",
+          "path": "/en/new-projects/dev/housing-and-development-company-for-real-estate"
+        },
+        {
+          "title": "Off-Plan & New Projects by Saudi Egyptian Developers (SED)",
+          "path": "/en/new-projects/dev/saudi-egyptian-developers-sed"
+        },
+        {
+          "title": "Off-Plan & New Projects by Waterway Developments",
+          "path": "/en/new-projects/dev/waterway-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by EFID Developments",
+          "path": "/en/new-projects/dev/efid-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by Tatweer Misr",
+          "path": "/en/new-projects/dev/tatweer-misr"
+        },
+        {
+          "title": "Off-Plan & New Projects by Misr Italia",
+          "path": "/en/new-projects/dev/misr-italia"
+        },
+        {
+          "title": "Off-Plan & New Projects by PTC Real Estate Development",
+          "path": "/en/new-projects/dev/ptc-real-estate-development"
+        },
+        {
+          "title": "Off-Plan & New Projects by Taj Misr Development",
+          "path": "/en/new-projects/dev/taj-misr-development"
+        },
+        {
+          "title": "Off-Plan & New Projects by Amer Group company",
+          "path": "/en/new-projects/dev/amer-group-company"
+        },
+        {
+          "title": "Off-Plan & New Projects by IL Cazar Developments",
+          "path": "/en/new-projects/dev/il-cazar-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by MARAKEZ",
+          "path": "/en/new-projects/dev/marakez"
+        },
+        {
+          "title": "Off-Plan & New Projects by IWAN Developments",
+          "path": "/en/new-projects/dev/iwan-developments"
+        },
+        {
+          "title": "Off-Plan & New Projects by Lasirena Group",
+          "path": "/en/new-projects/dev/lasirena-group"
+        },
+        {
+          "title": "Off-Plan & New Projects by Arab Developers Holding",
+          "path": "/en/new-projects/dev/arab-developers-holding"
+        },
+        {
+          "title": "Off-Plan & New Projects by El Mansour Developments",
+          "path": "/en/new-projects/dev/el-mansour-developments"
+        }
+      ]
+    }
+  },
+  "collections": null,
+  "devList": [],
+  "hasBedroomFilter": false,
+  "pageName": "new-projects-homepage"
+}

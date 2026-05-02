@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PropertyFinder Egypt — Scraping Report</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0f0f1a;color:#e0e0f0;line-height:1.6}
+.container{max-width:1400px;margin:0 auto;padding:20px}
+
+/* Header */
+.header{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);
+padding:40px;border-radius:16px;margin-bottom:30px;position:relative;overflow:hidden}
+.header::before{content:'';position:absolute;top:-50%;right:-20%;width:400px;height:400px;
+background:radial-gradient(circle,rgba(233,69,96,0.15),transparent 70%);pointer-events:none}
+.header h1{font-size:2.2rem;font-weight:700;
+background:linear-gradient(135deg,#e94560,#f5a623);-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;margin-bottom:8px}
+.header p{color:#8892b0;font-size:0.95rem}
+.badge{display:inline-block;background:rgba(233,69,96,0.15);color:#e94560;
+padding:4px 12px;border-radius:20px;font-size:0.8rem;font-weight:500;margin-top:8px}
+
+/* Metric Cards */
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:30px}
+.metric-card{background:linear-gradient(145deg,#1a1a2e,#16213e);border:1px solid rgba(255,255,255,0.06);
+border-radius:12px;padding:24px;text-align:center;transition:transform 0.2s,box-shadow 0.2s}
+.metric-card:hover{transform:translateY(-4px);box-shadow:0 8px 30px rgba(233,69,96,0.1)}
+.metric-card .value{font-size:2rem;font-weight:700;
+background:linear-gradient(135deg,#e94560,#f5a623);-webkit-background-clip:text;
+-webkit-text-fill-color:transparent}
+.metric-card .label{color:#8892b0;font-size:0.85rem;margin-top:4px}
+
+/* Section */
+.section{background:linear-gradient(145deg,#1a1a2e,#16213e);border:1px solid rgba(255,255,255,0.06);
+border-radius:12px;padding:24px;margin-bottom:24px}
+.section h2{font-size:1.3rem;font-weight:600;margin-bottom:16px;color:#e0e0f0;
+border-left:4px solid #e94560;padding-left:12px}
+
+/* Charts Grid */
+.charts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:24px;margin-bottom:24px}
+.chart-box{background:linear-gradient(145deg,#1a1a2e,#16213e);border:1px solid rgba(255,255,255,0.06);
+border-radius:12px;padding:24px}
+.chart-box h3{font-size:1rem;color:#8892b0;margin-bottom:12px}
+canvas{max-height:300px}
+
+/* Tables */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:0.85rem}
+th{background:rgba(233,69,96,0.1);color:#e94560;padding:12px 10px;text-align:left;
+font-weight:600;position:sticky;top:0;cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{background:rgba(233,69,96,0.2)}
+td{padding:10px;border-bottom:1px solid rgba(255,255,255,0.04);color:#c0c0d8}
+tr:hover td{background:rgba(233,69,96,0.04)}
+
+/* Tabs */
+.tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.tab-btn{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);
+color:#8892b0;padding:8px 20px;border-radius:8px;cursor:pointer;font-size:0.9rem;
+transition:all 0.2s;font-family:inherit}
+.tab-btn.active,.tab-btn:hover{background:rgba(233,69,96,0.15);color:#e94560;border-color:#e94560}
+.tab-content{display:none}.tab-content.active{display:block}
+
+/* Footer */
+.footer{text-align:center;color:#555;padding:30px;font-size:0.8rem}
+.footer a{color:#e94560;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<div class="header">
+<h1>🏠 PropertyFinder Egypt — Market Report</h1>
+<p>Automated real estate data scraped via Selenium from propertyfinder.eg</p>
+<div class="badge">Generated May 02, 2026 at 06:28</div>
+</div>
+
+<!-- Metrics -->
+<div class="metrics">
+<div class="metric-card"><div class="value">90</div><div class="label">Rental Listings</div></div>
+<div class="metric-card"><div class="value">57,343</div><div class="label">Avg Price (EGP/mo)</div></div>
+<div class="metric-card"><div class="value">24</div><div class="label">Off-Plan Projects</div></div>
+<div class="metric-card"><div class="value">20</div><div class="label">Agencies</div></div>
+<div class="metric-card"><div class="value">494</div><div class="label">Total Agents</div></div>
+<div class="metric-card"><div class="value">50,569</div><div class="label">Agency Properties</div></div>
+</div>
+
+<!-- Charts -->
+<div class="charts-grid">
+<div class="chart-box"><h3>📍 Listings by Location (Top 10)</h3><canvas id="locChart"></canvas></div>
+<div class="chart-box"><h3>💰 Price Distribution (EGP/month)</h3><canvas id="priceChart"></canvas></div>
+<div class="chart-box"><h3>🏗 Property Types</h3><canvas id="typeChart"></canvas></div>
+<div class="chart-box"><h3>🛏 Bedroom Distribution</h3><canvas id="bedChart"></canvas></div>
+</div>
+
+<!-- Data Tabs -->
+<div class="section">
+<div class="tabs">
+<button class="tab-btn active" onclick="showTab('listings')">🏠 Listings (90)</button>
+<button class="tab-btn" onclick="showTab('projects')">🏗 Projects (24)</button>
+<button class="tab-btn" onclick="showTab('agencies')">🏢 Agencies (20)</button>
+</div>
+
+<div id="listings" class="tab-content active">
+<div class="table-wrap"><table>
+<thead><tr><th onclick="sortTable(0,'listings')">Title ↕</th><th onclick="sortTable(1,'listings')">Price ↕</th>
+<th>Beds</th><th>Baths</th><th>Size (m²)</th><th onclick="sortTable(5,'listings')">Location ↕</th></tr></thead>
+<tbody><tr>
+<td>2BR First Use Garden Apartment for Rent in Eastown</td>
+<td>90,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Eastown</td>
+</tr><tr>
+<td>Furnished hotel-style apartment for rent, ultra-mo</td>
+<td>55,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>One Ninety Mall</td>
+</tr><tr>
+<td>Apartment for rent in VGK Compound Kitchen AC's</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Village Gardens Katameya</td>
+</tr><tr>
+<td>Apartment with ACs for rent in Fifth Square</td>
+<td>30,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>For Rent Apt 230 m at CFC prime location</td>
+<td>85,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo Festival City</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Capital City,DeJoya </td>
+</tr><tr>
+<td>Furnished Cozy Furnished Apart Prime Location Bes</td>
+<td>69,999 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Villette</td>
+</tr><tr>
+<td>Cozy Furn Apart For Rent Near T All Service best p</td>
+<td>38,888 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td>Cozy Furn Apart For Rent Near T All Service best p</td>
+<td>48,888 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td>Cozy Furnished Apartment Special Finishing</td>
+<td>69,999 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Lake View Residence</td>
+</tr><tr>
+<td>Apartment ground floor with garden for rent</td>
+<td>55,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Capital City,R8</td>
+</tr><tr>
+<td>Apartment for Rent in Katameya Dunes</td>
+<td>134,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Katameya Dunes</td>
+</tr><tr>
+<td>Apartment with garden for rent in Marasem</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>Luxury hotel modern first use studio near the AUC</td>
+<td>70,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>For Rent Apt 132 m at CFC prime location</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo Festival City</td>
+</tr><tr>
+<td>semi furnished apartment in lake view residence</td>
+<td>75,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Lake View Residence</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,Nasr City</td>
+</tr><tr>
+<td>Hotel apartment first use close to eastern market</td>
+<td>43,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td>Mivida | Boulevard | First use | Kitchen + AC's</td>
+<td>80,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>Super Lux Apartment with Modern Kitchen at Address</td>
+<td>20,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>The Address East</td>
+</tr><tr>
+<td>Spacious Apartment with ACs & Kitchen at Azad</td>
+<td>55,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Azad</td>
+</tr><tr>
+<td>Fully Finished Apartment for Rent in Address East</td>
+<td>18,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>The Address East</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,Nasr City,Nasr City Comp</td>
+</tr><tr>
+<td>Finished Apt with ACs for Rent in Fifth Square</td>
+<td>31,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>Apartment with ACs & Kitchen Appliances for Rent</td>
+<td>34,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>The Village</td>
+</tr><tr>
+<td>Apartment for Rent in Stone Residence –</td>
+<td>30,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Stone Residence</td>
+</tr><tr>
+<td>First Inhabitant Apt with ACs & Kitchen-MV ICITY</td>
+<td>25,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mountain View iCity</td>
+</tr><tr>
+<td>Brand New "First-Use" Apartment for Rent in Sarai</td>
+<td>18,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>S2</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,Mostakbal City - Future </td>
+</tr><tr>
+<td>Modern Apartment with Kitchen for Rent in Taj</td>
+<td>40,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Taj City</td>
+</tr><tr>
+<td>Apartment for rent -3Bedrooms - Fully furnished</td>
+<td>60,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Villette</td>
+</tr><tr>
+<td>Apart with kitchen & ac's direct lake view - Rent</td>
+<td>80,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Lake View Residence</td>
+</tr><tr>
+<td>Apartment for rent - 2 Bedrooms - Semi furnished</td>
+<td>55,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Villette</td>
+</tr><tr>
+<td>Sky Loft for Rent in Fifth Square Marasem 171 sqm</td>
+<td>45,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Capital City</td>
+</tr><tr>
+<td>Garden Apartment for Rent in Marasem | 180 sqm</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>For rent special apartment in Eastown, 152m</td>
+<td>47,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Eastown</td>
+</tr><tr>
+<td>Brand new modern apartment for rent at AL Narges 5</td>
+<td>40,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Aly Sharawy St.</td>
+</tr><tr>
+<td>Apartment for Rent Mivida Boulevard First Use Prim</td>
+<td>95,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>Special Furnished Apartment Rehab 2 prime location</td>
+<td>41,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Cairo City</td>
+</tr><tr>
+<td>fully furnished apartment for rent  Festival City</td>
+<td>85,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo Festival City</td>
+</tr><tr>
+<td>modern finished Apartment for rent The Square</td>
+<td>27,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>The Square</td>
+</tr><tr>
+<td>distinctive 1 bed Master-Hotel furniture-marasem</td>
+<td>44,992 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>Elegant Studio for Rent with High-End Finishes</td>
+<td>32,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td>Apartment ground with garden Kitchen and ACs</td>
+<td>55,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Capital City</td>
+</tr><tr>
+<td>Hotel apartment for rent in madinty full furnished</td>
+<td>38,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>B12</td>
+</tr><tr>
+<td>distinctive Apartment  with Kitchen-ACs Eastown</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Eastown</td>
+</tr><tr>
+<td>Modern furnished apartment in Villette V Residence</td>
+<td>110,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Villette</td>
+</tr><tr>
+<td>Apartment with kitchen appliances & ACs in Eastown</td>
+<td>65,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Eastown</td>
+</tr><tr>
+<td>Premium furnished apartment for rent in Eastown</td>
+<td>140,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Eastown</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,Shorouk City</td>
+</tr><tr>
+<td>Elegant furnished apartment in Mivida Blue Views</td>
+<td>120,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>Fully furnished apartment For Rent In Lake view</td>
+<td>79,999 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Lake View Residence</td>
+</tr><tr>
+<td>Fully furnished apartment For Rent In East town</td>
+<td>90,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Eastown</td>
+</tr><tr>
+<td>Furnished apartments for rent in rehab city</td>
+<td>42,999 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td>Sky Loft for Rent with AC in Al Marasem</td>
+<td>35,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Cairo City</td>
+</tr><tr>
+<td>Fully furnished apartment For Rent In Madinaty</td>
+<td>32,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>B8</td>
+</tr><tr>
+<td>Fully furnished apartment For Rent In El Rehab</td>
+<td>39,999 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td>Apartment for rent in Al Marasem-Kitchen and ACs</td>
+<td>45,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>Apartment for rent kitchen-ACs in  iCity</td>
+<td>30,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mountain View iCity</td>
+</tr><tr>
+<td>Fully furnished apartment For Rent In Al Rehab</td>
+<td>38,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Rehab Extension</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Capital City</td>
+</tr><tr>
+<td>Furnished Studio for rent in Hyde Park Compound</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Garden Residence</td>
+</tr><tr>
+<td>Apartment with ACs  for rent in Hyde park</td>
+<td>37,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Garden Residence</td>
+</tr><tr>
+<td>Apartment for rent in Mountain view hyde park</td>
+<td>40,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mountain View Hyde Park</td>
+</tr><tr>
+<td>Premium Apartment for Rent in Village Gate</td>
+<td>30,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Palm Hills Village Gate</td>
+</tr><tr>
+<td>First use Apartment with kitchen & AC'S for rent</td>
+<td>70,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Regents Park</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Cairo City,The 5th S</td>
+</tr><tr>
+<td>Apartment for rent in Madinaty, high-end furnishin</td>
+<td>30,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>B12</td>
+</tr><tr>
+<td>Ultra-modern fully furnished apartment in Zamalek</td>
+<td>135,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Hassan Sabri St.</td>
+</tr><tr>
+<td>216 sq m Apartment for Rent at a Special Price</td>
+<td>80,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>apartment for rent with kitchen and acs low price</td>
+<td>38,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>El Patio Oro</td>
+</tr><tr>
+<td>Apartment for Rent in The Square – New Cairo</td>
+<td>23,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>The Square</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,Shorouk City,El Shorouk </td>
+</tr><tr>
+<td>Furnished apartment for rent in Degla, Maadi</td>
+<td>40,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Degla Square</td>
+</tr><tr>
+<td>semi furnished Apt with Garden in Fifth Square</td>
+<td>40,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>Bright with open view apartment at maadi sarayat</td>
+<td>105,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Sarayat Al Maadi</td>
+</tr><tr>
+<td>Luxury Apartment for Rent in Mivida Avenues</td>
+<td>75,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>Apartment 400sqm for rent in Masaken Sheraton</td>
+<td>60,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Masaken Sheraton</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Cairo City,The 5th S</td>
+</tr><tr>
+<td>Furnished apartment for rent In mivida</td>
+<td>130,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Mivida</td>
+</tr><tr>
+<td>distinct Studio Hotel furniture-for rent villette</td>
+<td>75,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Villette</td>
+</tr><tr>
+<td>Amazing Apartment for rent Direct on Lake kitchen</td>
+<td>77,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Lake View Residence</td>
+</tr><tr>
+<td>Apartment for rent in FGifth Square Marasem</td>
+<td>37,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Moon Residences</td>
+</tr><tr>
+<td>Fully furnished - Ultra Super lux - Wide Area</td>
+<td>50,000 EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Stone Residence</td>
+</tr><tr>
+<td></td>
+<td>N/A EGP</td>
+<td>None</td><td>None</td>
+<td>None</td>
+<td>Cairo,New Cairo City</td>
+</tr></tbody></table></div></div>
+
+<div id="projects" class="tab-content">
+<div class="table-wrap"><table>
+<thead><tr><th onclick="sortTable(0,'projects')">Project ↕</th><th onclick="sortTable(1,'projects')">Developer ↕</th>
+<th>Location</th><th onclick="sortTable(3,'projects')">Starting Price ↕</th>
+<th>Status</th><th>Delivery</th><th>Types</th></tr></thead>
+<tbody><tr>
+<td>Cali Coast</td>
+<td>Maven Developments</td>
+<td>North Coast,Ras Al Hekma,Cali </td>
+<td>6,000,000 EGP</td>
+<td>Under Construction</td>
+<td>2026-08-30</td>
+<td>villa, apartment, townhouse</td>
+</tr><tr>
+<td>DeJoya 4</td>
+<td>Taj Misr Development</td>
+<td>Cairo,New Capital City,DeJoya </td>
+<td>4,511,894 EGP</td>
+<td>Under Construction</td>
+<td>2029-12-31</td>
+<td>apartment, duplex</td>
+</tr><tr>
+<td>Winter Park</td>
+<td>Dominar Developments</td>
+<td>Cairo,New Capital City,R8</td>
+<td>4,100,000 EGP</td>
+<td>Under Construction</td>
+<td>2029-12-31</td>
+<td></td>
+</tr><tr>
+<td>Zahra</td>
+<td>Morshedy Group</td>
+<td>North Coast,Sidi Abdel Rahman,</td>
+<td>7,111,000 EGP</td>
+<td>Completed</td>
+<td>2024-12-31</td>
+<td></td>
+</tr><tr>
+<td>Towers</td>
+<td>Morshedy Group</td>
+<td>Cairo,Nasr City</td>
+<td>4,851,000 EGP</td>
+<td>Not Started</td>
+<td>—</td>
+<td>apartment</td>
+</tr><tr>
+<td>Lakefront</td>
+<td>Morshedy Group</td>
+<td>Giza,6 October City,Hadayek Oc</td>
+<td>7,467,500 EGP</td>
+<td>Completed</td>
+<td>2023-03-31</td>
+<td></td>
+</tr><tr>
+<td>Landmark</td>
+<td>Morshedy Group</td>
+<td>Cairo,Nasr City,Nasr City Comp</td>
+<td>3,114,000 EGP</td>
+<td>Completed</td>
+<td>2023-01-01</td>
+<td>apartment</td>
+</tr><tr>
+<td>Sarai</td>
+<td>Madinet Masr</td>
+<td>Cairo,Mostakbal City - Future </td>
+<td>1,798,972 EGP</td>
+<td>Completed</td>
+<td>2026-03-31</td>
+<td>villa, apartment</td>
+</tr><tr>
+<td>Murtaqa</td>
+<td>Murtaqa Developments</td>
+<td>Cairo,El Matareya,Al Izab,Al O</td>
+<td>18,000,000 EGP</td>
+<td>Under Construction</td>
+<td>2028-12-31</td>
+<td></td>
+</tr><tr>
+<td>The Ritz Carlton Residences</td>
+<td>Palm Hills</td>
+<td>Giza,6 October City</td>
+<td>132,463,000 EGP</td>
+<td>Under Construction</td>
+<td>2029-12-31</td>
+<td></td>
+</tr><tr>
+<td>Waad</td>
+<td>Kayan Real Estate</td>
+<td>Qalyubia,New Obour City</td>
+<td>N/A EGP</td>
+<td>Under Construction</td>
+<td>2028-12-31</td>
+<td></td>
+</tr><tr>
+<td>Lumin Heights</td>
+<td>Circle Communities</td>
+<td>Giza,Sheikh Zayed City</td>
+<td>N/A EGP</td>
+<td>Under Construction</td>
+<td>2027-12-31</td>
+<td></td>
+</tr><tr>
+<td>Pura Residence</td>
+<td>Kafafy Developments</td>
+<td>Giza,Sheikh Zayed City</td>
+<td>9,375,000 EGP</td>
+<td>Under Construction</td>
+<td>2027-12-31</td>
+<td></td>
+</tr><tr>
+<td>Golf Mansions</td>
+<td>Emaar Misr</td>
+<td>Cairo,Mokattam,Uptown Cairo</td>
+<td>N/A EGP</td>
+<td>Not Started</td>
+<td>—</td>
+<td>villa</td>
+</tr><tr>
+<td>Ray Chalets - DOSE</td>
+<td>Akam Developments</td>
+<td>North Coast,Qesm Ad Dabaah,Dos</td>
+<td>5,630,000 EGP</td>
+<td>Under Construction</td>
+<td>2030-12-31</td>
+<td>apartment</td>
+</tr><tr>
+<td>Water Creek Direction White</td>
+<td>Arabella</td>
+<td>North Coast,Ras Al Hekma,Direc</td>
+<td>8,800,000 EGP</td>
+<td>Under Construction</td>
+<td>2028-12-31</td>
+<td>apartment, townhouse</td>
+</tr><tr>
+<td>The Crown Extension</td>
+<td>Palm Hills</td>
+<td>Giza,6 October City</td>
+<td>28,053,000 EGP</td>
+<td>Under Construction</td>
+<td>2030-06-30</td>
+<td>apartment, townhouse</td>
+</tr><tr>
+<td>Jay Dose</td>
+<td>Akam Developments</td>
+<td>North Coast,Qesm Ad Dabaah,Dos</td>
+<td>10,824,000 EGP</td>
+<td>Not Started</td>
+<td>—</td>
+<td>apartment</td>
+</tr><tr>
+<td>Layal Residence</td>
+<td>New event developments</td>
+<td>Cairo,New Capital City</td>
+<td>2,331,000 EGP</td>
+<td>Under Construction</td>
+<td>2030-12-31</td>
+<td></td>
+</tr><tr>
+<td>Youd El Bahr</td>
+<td>Al Ahly Sabbour Developments</td>
+<td>North Coast,Ras Al Hekma,Youd</td>
+<td>11,600,000 EGP</td>
+<td>Under Construction</td>
+<td>2030-12-31</td>
+<td></td>
+</tr><tr>
+<td>Epic Chalet Dose</td>
+<td>Akam Developments</td>
+<td>North Coast,Qesm Ad Dabaah,Dos</td>
+<td>21,420,000 EGP</td>
+<td>Not Started</td>
+<td>—</td>
+<td>apartment</td>
+</tr><tr>
+<td>Rova</td>
+<td>Circle Communities</td>
+<td>Giza,Sheikh Zayed City</td>
+<td>N/A EGP</td>
+<td>Under Construction</td>
+<td>2026-12-31</td>
+<td></td>
+</tr><tr>
+<td>Rock Ville</td>
+<td>Rock developments</td>
+<td>Qalyubia,Obour City,5th Distri</td>
+<td>N/A EGP</td>
+<td>Not Started</td>
+<td>—</td>
+<td></td>
+</tr><tr>
+<td>East Bay Beit Al Bahr</td>
+<td>Beit Al Bahr Developments</td>
+<td>North Coast,Sidi Heneish,Beit </td>
+<td>N/A EGP</td>
+<td>Not Started</td>
+<td>—</td>
+<td>apartment</td>
+</tr></tbody></table></div></div>
+
+<div id="agencies" class="tab-content">
+<div class="table-wrap"><table>
+<thead><tr><th onclick="sortTable(0,'agencies')">Agency ↕</th><th onclick="sortTable(1,'agencies')">Agents ↕</th>
+<th onclick="sortTable(2,'agencies')">Total Props ↕</th><th>For Sale</th><th>For Rent</th>
+<th>Phone</th></tr></thead>
+<tbody><tr>
+<td>Square real estate</td>
+<td>3</td>
+<td>1,503</td>
+<td>1,500</td>
+<td>3</td>
+<td>+201033553922</td>
+</tr><tr>
+<td>New Avenue Real Estate</td>
+<td>64</td>
+<td>10,438</td>
+<td>6,879</td>
+<td>107</td>
+<td>+201280862222</td>
+</tr><tr>
+<td>Spade consultancy</td>
+<td>29</td>
+<td>1,295</td>
+<td>1,165</td>
+<td>121</td>
+<td>+201001436511</td>
+</tr><tr>
+<td>Summit Real Estate</td>
+<td>18</td>
+<td>586</td>
+<td>282</td>
+<td>N/A</td>
+<td>+201007603890</td>
+</tr><tr>
+<td>Egypt Best Properties</td>
+<td>89</td>
+<td>14,525</td>
+<td>14,155</td>
+<td>107</td>
+<td>+201224946565</td>
+</tr><tr>
+<td>Master Mind Real Estate Services</td>
+<td>7</td>
+<td>386</td>
+<td>326</td>
+<td>39</td>
+<td>+201020327222</td>
+</tr><tr>
+<td>Property Hills Star</td>
+<td>7</td>
+<td>3,954</td>
+<td>3,399</td>
+<td>13</td>
+<td>+201111984362</td>
+</tr><tr>
+<td>Remax Professional.</td>
+<td>78</td>
+<td>1,633</td>
+<td>1,436</td>
+<td>106</td>
+<td>+201020622289</td>
+</tr><tr>
+<td>Property  Hills.</td>
+<td>16</td>
+<td>2,089</td>
+<td>1,819</td>
+<td>N/A</td>
+<td>+201155468540</td>
+</tr><tr>
+<td>Insider Real Estate Consultancy</td>
+<td>34</td>
+<td>1,197</td>
+<td>1,149</td>
+<td>33</td>
+<td>+201002800098</td>
+</tr><tr>
+<td>Platinum Properties</td>
+<td>6</td>
+<td>762</td>
+<td>668</td>
+<td>62</td>
+<td>+201226600677</td>
+</tr><tr>
+<td>IRTKAZ</td>
+<td>33</td>
+<td>1,842</td>
+<td>1,592</td>
+<td>11</td>
+<td>+201005080951</td>
+</tr><tr>
+<td>Remax The Address</td>
+<td>21</td>
+<td>532</td>
+<td>490</td>
+<td>41</td>
+<td>+201028022944</td>
+</tr><tr>
+<td>Select for real estate</td>
+<td>27</td>
+<td>194</td>
+<td>173</td>
+<td>21</td>
+<td>+201099024264</td>
+</tr><tr>
+<td>Falcon for Real Estate</td>
+<td>34</td>
+<td>5,632</td>
+<td>5,437</td>
+<td>N/A</td>
+<td>+201019977900</td>
+</tr><tr>
+<td>Closer</td>
+<td>8</td>
+<td>948</td>
+<td>939</td>
+<td>N/A</td>
+<td>+201004693571</td>
+</tr><tr>
+<td>Allocate Real Estate</td>
+<td>4</td>
+<td>1,380</td>
+<td>1,158</td>
+<td>101</td>
+<td>+201140482222</td>
+</tr><tr>
+<td>Coldwell Banker Wealth</td>
+<td>2</td>
+<td>891</td>
+<td>856</td>
+<td>3</td>
+<td>+201210962814</td>
+</tr><tr>
+<td>Beltone</td>
+<td>11</td>
+<td>527</td>
+<td>467</td>
+<td>1</td>
+<td>+201033329264</td>
+</tr><tr>
+<td>CBE New Homes</td>
+<td>3</td>
+<td>255</td>
+<td>196</td>
+<td>28</td>
+<td>+201050408627</td>
+</tr></tbody></table></div></div>
+</div>
+
+<div class="footer">
+<p>Data sourced from <a href="https://www.propertyfinder.eg" target="_blank">propertyfinder.eg</a>
+&nbsp;·&nbsp; For educational purposes only &nbsp;·&nbsp; Built with Selenium + Python</p>
+</div>
+</div>
+
+<script>
+// Chart colors
+const colors = ['#e94560','#f5a623','#4fc3f7','#81c784','#ba68c8','#ff8a65','#4dd0e1','#aed581','#f06292','#7986cb'];
+const bgColors = colors.map(c => c + '33');
+
+function mkChart(id, type, labels, data, label) {
+  new Chart(document.getElementById(id), {
+    type: type,
+    data: {
+      labels: labels,
+      datasets: [{ label: label, data: data, backgroundColor: bgColors, borderColor: colors, borderWidth: 1.5 }]
+    },
+    options: {
+      responsive: true, plugins: { legend: { display: type==='pie'||type==='doughnut' } },
+      scales: type==='pie'||type==='doughnut' ? {} : {
+        x: { ticks: { color: '#8892b0' }, grid: { color: 'rgba(255,255,255,0.04)' } },
+        y: { ticks: { color: '#8892b0' }, grid: { color: 'rgba(255,255,255,0.04)' } }
+      }
+    }
+  });
+}
+
+mkChart('locChart', 'bar', ["Moon Residences", "El Rehab Extension", "Mivida", "Eastown", "Villette", "Lake View Residence", "Cairo Festival City", "Cairo,New Capital Ci", "Cairo,New Cairo City", "The Address East"], [12, 8, 7, 6, 5, 5, 3, 3, 3, 2], 'Listings');
+mkChart('priceChart', 'bar', ["76,250", "45,750", "15,250", "61,000", "30,500", "122,000", "91,500", "106,750"], [9, 16, 11, 8, 23, 3, 2, 2], 'Count');
+mkChart('typeChart', 'doughnut', ["Apartment", "apartment", "multiple"], [75, 11, 4], 'Types');
+mkChart('bedChart', 'bar', ["N/A"], [90], 'Listings');
+
+// Tabs
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// Sort
+function sortTable(col, tabId) {
+  const table = document.querySelector('#'+tabId+' table');
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  const dir = table.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+  table.dataset.sortDir = dir;
+  rows.sort((a, b) => {
+    let va = a.cells[col].textContent.trim(), vb = b.cells[col].textContent.trim();
+    let na = parseFloat(va.replace(/[^0-9.-]/g, '')), nb = parseFloat(vb.replace(/[^0-9.-]/g, ''));
+    if (!isNaN(na) && !isNaN(nb)) return dir === 'asc' ? na - nb : nb - na;
+    return dir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+  const tbody = table.querySelector('tbody');
+  rows.forEach(r => tbody.appendChild(r));
+}
+</script>
+</body>
+</html>
