@@ -2,6 +2,10 @@
 
 ### CSE476s (UG2018) — Fundamentals of Big-Data Analytics
 
+![Report Screenshot](report_screenshot.jpeg)
+
+## 👥 Team Members
+
 | Name | ID |
 |------|------|
 | Michael George | 2100709 |
@@ -10,12 +14,56 @@
 
 ---
 
-A robust, production-ready web scraper for [PropertyFinder Egypt](https://www.propertyfinder.eg) built with **Selenium** and **Python**. It extracts live real estate data (rental listings, off-plan projects, and brokerage agencies) directly from the site's embedded Next.js `__NEXT_DATA__` payloads — making it fast, reliable, and resilient to UI changes.
+## 🎯 Problem Description
+
+The Egyptian real estate market is highly dynamic and rapidly expanding. However, acquiring structured, reliable, and up-to-date property data for market analysis, pricing strategies, and investment decisions is challenging. Manual data collection from real estate portals is error-prone, time-consuming, and unscalable, hindering the ability of analysts, investors, and developers to make data-driven decisions effectively.
+
+---
+
+## 💼 Business and Market Benefits
+
+Automating data collection from major real estate platforms like PropertyFinder provides significant business value:
+- **Market Intelligence:** Enables real-time trend analysis, price tracking, and demand forecasting across different locations.
+- **Competitive Advantage:** Allows brokerages and agencies to benchmark their listings and performance against competitors.
+- **Investment Insights:** Empowers investors to identify high-yield areas and undervalued properties.
+- **Operational Efficiency:** Eliminates thousands of hours of manual research, transforming raw web data into actionable, structured formats instantly.
+
+---
+
+## 🛠 Technical Description
+
+A robust, production-ready web scraper built with **Selenium** and **Python**. Instead of relying on brittle DOM scraping, it intercepts and extracts the underlying Next.js `__NEXT_DATA__` JSON payloads and JSON-LD structured metadata directly from the page source. 
+This approach ensures high-fidelity data extraction that is fast, reliable, and resilient to frequent UI modifications. The pipeline processes this raw data using Pandas, normalizing and deduplicating it before exporting it into ready-to-use formats (JSON, Excel) and generating interactive HTML analytics dashboards.
+
+---
+
+## 📊 Results
+
+The scraper successfully automates the extraction of comprehensive datasets, including:
+- **Rental/Sale Listings:** Complete with pricing, amenities, coordinates, and images.
+- **Off-Plan Projects:** Developer details, delivery dates, and price ranges.
+- **Broker Agencies:** Company metrics and contact details.
+
+It automatically generates an interactive HTML dashboard that visualizes price distributions, location-based property counts, and provides searchable data tables, demonstrating a complete end-to-end big data collection and reporting pipeline.
+
+![Interactive Dashboard Screenshot](report_screenshot.jpeg)
+
+---
+
+## 🔗 Link to Public Project Repository
+
+[📁 Public Project Repository (Data, Code, Demo Video)](https://github.com/the3miaphysite3engineer3/BigDataProject)
 
 ---
 
 ## 📋 Table of Contents
 
+- [Team Members](#-team-members)
+- [Problem Description](#-problem-description)
+- [Business and Market Benefits](#-business-and-market-benefits)
+- [Technical Description](#-technical-description)
+- [Results](#-results)
+- [Link to Public Project Repository](#-link-to-public-project-repository)
 - [Features](#-features)
 - [Architecture](#-architecture)
 - [Prerequisites](#-prerequisites)
